@@ -42,6 +42,7 @@ function App() {
       <Projects/>
       <br />
       <br />
+      <br />
 <Contact/>
       <Footer/>
     </>

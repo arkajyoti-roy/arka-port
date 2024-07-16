@@ -317,10 +317,13 @@ ul {
 /* projects cards sliders */
 
 .card {
-  width: 100%;
+  width: 96.5%;
+  margin-left: 15px;
+  height: 415px !important;
   background: white;
-  padding: .4em;
-  border-radius: 6px;
+  padding: 1.4em;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .card-image {
@@ -333,7 +336,11 @@ ul {
   border-radius: 1px solid black;
 }
 .card-image img{
- 
+ /* padding: auto; */
+ border-radius: 8px;
+ /* border: 1px solid black; */
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ margin-left: 10px;
   width: 100%;
   width: 95%;
 }
