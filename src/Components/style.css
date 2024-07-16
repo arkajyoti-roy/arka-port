@@ -333,8 +333,9 @@ ul {
   border-radius: 1px solid black;
 }
 .card-image img{
-  height: 130px;
+ 
   width: 100%;
+  width: 95%;
 }
 
 .card-image:hover {
