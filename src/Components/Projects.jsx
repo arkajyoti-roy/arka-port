@@ -2,6 +2,7 @@ import React from "react";
 import workstream from './images/workstream.png'
 import JobHunt from './images/jobhunt.png'
 import Ambition from './images/ambition.png'
+import PassMan from './images/passman.png'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -95,7 +96,9 @@ const Projects = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="card">
-              <div className="card-image"></div>
+              <div className="card-image">
+                <img src={PassMan} alt="" />
+              </div>
               <div className="category"> PassMan </div>
               <div className="heading flex flex-row gap-6 justify-center mt-20">
                 <div className="git">
