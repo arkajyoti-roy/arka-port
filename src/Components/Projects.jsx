@@ -1,4 +1,7 @@
 import React from "react";
+import workstream from './images/workstream.png'
+import JobHunt from './images/jobhunt.png'
+import Ambition from './images/ambition.png'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -51,72 +54,78 @@ const Projects = () => {
       >
         <div className="mx-8">
           <SwiperSlide>
-            <div class="card">
-              <div class="card-image"></div>
-              <div class="category"> Workstream </div>
-              <div class="heading flex flex-row gap-6 justify-center ">
+            <div className="card">
+              <div className="card-image">
+                <img src={workstream} alt="" />
+              </div>
+              <div className="category"> Workstream </div>
+              <div className="heading flex flex-row gap-6 justify-center mt-20">
                 <div className="git">
-                  <button class="button">
-                    <span class="button-content">Github </span>
+                  <button className="button">
+                    <span className="button-content">Github </span>
                   </button>
                 </div>
                 <div className="live">
-                  <button class="button">
-                    <span class="button-content">Live </span>
+                  <button className="button">
+                    <span className="button-content">Live </span>
                   </button>
                 </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="card">
-              <div class="card-image"></div>
-              <div class="category"> JobHunt </div>
-              <div class="heading flex flex-row gap-6 justify-center ">
+            <div className="card">
+              <div className="card-image">
+                <img src={JobHunt} alt="" />
+              </div>
+              <div className="category"> JobHunt </div>
+              <div className="heading flex flex-row gap-6 justify-center mt-20 ">
                 <div className="git">
-                  <button class="button">
-                    <span class="button-content">Github </span>
+                  <button className="button">
+                    <span className="button-content">Github </span>
                   </button>
                 </div>
                 <div className="live">
-                  <button class="button">
-                    <span class="button-content">Live </span>
+                  <button className="button">
+                    <span className="button-content">Live </span>
                   </button>
                 </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="card">
-              <div class="card-image"></div>
-              <div class="category"> PassMan </div>
-              <div class="heading flex flex-row gap-6 justify-center ">
+            <div className="card">
+              <div className="card-image"></div>
+              <div className="category"> PassMan </div>
+              <div className="heading flex flex-row gap-6 justify-center mt-20">
                 <div className="git">
-                  <button class="button">
-                    <span class="button-content">Github </span>
+                  <button className="button">
+                    <span className="button-content">Github </span>
                   </button>
                 </div>
                 <div className="live">
-                  <button class="button">
-                    <span class="button-content">Live </span>
+                  <button className="button">
+                    <span className="button-content">Live </span>
                   </button>
                 </div>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="card">
-              <div class="card-image"></div>
-              <div class="category"> Ambition </div>
-              <div class="heading flex flex-row gap-6 justify-center ">
+            <div className="card">
+              <div className="card-image">
+                <img src={Ambition} alt="" />
+              </div>
+              <div className="category"> Ambition </div>
+              <div className="heading flex flex-row gap-6 justify-center mt-20">
                 <div className="git">
-                  <button class="button">
-                    <span class="button-content">Github </span>
+                  <button className="button">
+                    <span className="button-content">Github </span>
                   </button>
                 </div>
                 <div className="live">
-                  <button class="button">
-                    <span class="button-content">Live </span>
+                  <button className="button">
+                    <span className="button-content">Live </span>
                   </button>
                 </div>
               </div>
