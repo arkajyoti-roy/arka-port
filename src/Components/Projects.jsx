@@ -9,7 +9,7 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 // import "swiper/css/pagination";
-import "swiper/css/scrollbar";
+// import "swiper/css/scrollbar";
 
 import "./style.css";
 const Projects = () => {
@@ -51,92 +51,130 @@ const Projects = () => {
             spaceBetween: 40,
           },
         }}
-        //   className="cheafpa"
+  
       >
-        <div className="mx-8 px-5">
-          <SwiperSlide>
-            <div className="card">
-              <div className="card-image">
-                <img src={workstream} alt="" />
-              </div>
-              <div className="category"> Workstream </div>
-              <div className="heading flex flex-row gap-6 justify-center mt-20">
-                <div className="git">
-                  <button className="button">
-                    <span className="button-content">Github </span>
-                  </button>
-                </div>
-                <div className="live">
-                  <button className="button">
-                    <span className="button-content">Live </span>
-                  </button>
-                </div>
-              </div>
-            </div>
+        <div className="ml-40 px-5">
+     
+          <SwiperSlide  className="mx-20">
+          <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+  <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
+ 
+ <img style={{width: "100%", height: "100%",  borderRadius: "8px"}} src="./images/jobhunt.png" alt="" />
+
+  </div>
+  <div className="p-6">
+    <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+     Jobhunt
+    </h5>
+    <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis ligula. 
+    </p>
+  </div>
+  <div className="p-6 pt-0 flex flex-row gap-8">
+    <button data-ripple-light="true" type="button" className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+      GitHub
+    </button>
+    <button data-ripple-light="true" type="button" className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+      Live
+    </button>
+  </div>
+</div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="card">
-              <div className="card-image">
-                <img src={JobHunt} alt="" />
-              </div>
-              <div className="category"> JobHunt </div>
-              <div className="heading flex flex-row gap-6 justify-center mt-20 ">
-                <div className="git">
-                  <button className="button">
-                    <span className="button-content">Github </span>
-                  </button>
-                </div>
-                <div className="live">
-                  <button className="button">
-                    <span className="button-content">Live </span>
-                  </button>
-                </div>
-              </div>
-            </div>
+
+
+
+
+
+          <SwiperSlide className="mx-0">
+          <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+  <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
+ 
+ <img style={{width: "100%", height: "100%",  borderRadius: "8px"}} src="./images/ambition.png" alt="" />
+
+  </div>
+  <div className="p-6">
+    <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+     Ambition
+    </h5>
+    <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis ligula. 
+    </p>
+  </div>
+  <div className="p-6 pt-0 flex flex-row gap-8">
+    <button data-ripple-light="true" type="button" className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+      GitHub
+    </button>
+    <button data-ripple-light="true" type="button" className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+      Live
+    </button>
+  </div>
+</div>
           </SwiperSlide>
+
+
+
+
+
+
           <SwiperSlide>
-            <div className="card">
-              <div className="card-image">
-                <img src={PassMan} alt="" />
-              </div>
-              <div className="category"> PassMan </div>
-              <div className="heading flex flex-row gap-6 justify-center mt-20">
-                <div className="git">
-                  <button className="button">
-                    <span className="button-content">Github </span>
-                  </button>
-                </div>
-                <div className="live">
-                  <button className="button">
-                    <span className="button-content">Live </span>
-                  </button>
-                </div>
-              </div>
-            </div>
+          <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+  <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
+ 
+ <img style={{width: "100%", height: "100%",  borderRadius: "8px"}} src="./images/workstream.png" alt="" />
+
+  </div>
+  <div className="p-6">
+    <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+     WorkStream
+    </h5>
+    <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis ligula. 
+    </p>
+  </div>
+  <div className="p-6 pt-0 flex flex-row gap-8">
+    <button data-ripple-light="true" type="button" className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+     GitHub
+    </button>
+    <button data-ripple-light="true" type="button" className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+      Live
+    </button>
+  </div>
+</div>
           </SwiperSlide>
+
+
+
+
           <SwiperSlide>
-            <div className="card">
-              <div className="card-image">
-                <img src={Ambition} alt="" />
-              </div>
-              <div className="category"> Ambition </div>
-              <div className="heading flex flex-row gap-6 justify-center mt-20">
-                <div className="git">
-                  <button className="button">
-                    <span className="button-content">Github </span>
-                  </button>
-                </div>
-                <div className="live">
-                  <button className="button">
-                    <span className="button-content">Live </span>
-                  </button>
-                </div>
-              </div>
-            </div>
+          <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+  <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
+ 
+ <img style={{width: "100%", height: "100%",  borderRadius: "8px"}} src="./images/passman.png" alt="" />
+
+  </div>
+  <div className="p-6">
+    <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+     PassMan
+    </h5>
+    <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc felis ligula. 
+    </p>
+  </div>
+  <div className="p-6 pt-0 flex flex-row gap-8">
+    <button data-ripple-light="true" type="button" className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+      GitHub
+    </button>
+    <button data-ripple-light="true" type="button" className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none">
+      Live
+    </button>
+  </div>
+</div>
           </SwiperSlide>
-        </div>
+
+
+     </div>
       </Swiper>
-    </div>
+   </div>
   );
 };
 
