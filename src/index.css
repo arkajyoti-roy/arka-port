@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
 
+body{
 /* Positioning and layering */
 position: absolute;
 inset: 0;
@@ -25,5 +25,9 @@ background-size: 14px 24px;
 
 
 
-scrollbar-color: rgb(25);
-}
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    /* font-weight: 700px; */
+    font-size: large;
+  }

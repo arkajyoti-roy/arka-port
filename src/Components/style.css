@@ -377,7 +377,10 @@ ul {
 
 /* SKILLS */
 
-
+.abto{
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 .nwskl{
   /* justify-center text-center */

@@ -1,11 +1,10 @@
 import React from "react";
 import "./style.css";
 // import arka from './images/arka.png'
-import arka from './images/arka1.jpg'
+import arka from "./images/arka1.jpg";
 const Home = () => {
   return (
     <>
-    
       <div id="homee" className="home">
         <div id="side" className="social">
           <ul className="wrapper">
@@ -85,26 +84,30 @@ const Home = () => {
               <h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium text-gray-900">
                 Arkajyoti Roy
               </h1>
-              <h3 className="text-xl">__________Fullstack Developer</h3>
+              <h3 className="text-lg">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fullstack Developer
+              </h3>
               <br />
               <p className="mb-8 leading-relaxed">
                 I'm a fullstack developer based in India, &
-                <br />I'm very passionate and dedicated to my work.
+                <br />
+                I'm very passionate and dedicated to my work.
               </p>
               <div className="flex justify-center">
-              
-                  
-                 
-                  <a href="https://api.whatsapp.com/send?phone=+918974335084&text=Hello%2C%20!" target="_blank">
-                  <button href className="inline-flex text-white rounded-lg bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg">
+                <a
+                  href="https://api.whatsapp.com/send?phone=+918974335084&text=Hello%2C%20!"
+                  target="_blank"
+                >
+                  <button
+                    href
+                    className="inline-flex text-white rounded-lg bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg"
+                  >
                     Say hello{" "}
-                    <svg
-                      className="sv"
-                      height="1.1em"
-                      viewBox="-0.5 0 25 25"
+                    <svg style={{paddingTop: "6px", paddingLeft: "4px"}}
+                      height="1.2em"
+                      viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
-                      stroke="#ffffff"
                     >
                       <g id="SVGRepo_bgCarrier" stroke-width="0" />
 
@@ -117,16 +120,9 @@ const Home = () => {
                       <g id="SVGRepo_iconCarrier">
                         {" "}
                         <path
-                          d="M2.33045 8.38999C0.250452 11.82 9.42048 14.9 9.42048 14.9C9.42048 14.9 12.5005 24.07 15.9305 21.99C19.5705 19.77 23.9305 6.13 21.0505 3.27C18.1705 0.409998 4.55045 4.74999 2.33045 8.38999Z"
+                          d="M20 4L12 12M20 4V8.5M20 4H15.5M19 12.5V16.8C19 17.9201 19 18.4802 18.782 18.908C18.5903 19.2843 18.2843 19.5903 17.908 19.782C17.4802 20 16.9201 20 15.8 20H7.2C6.0799 20 5.51984 20 5.09202 19.782C4.71569 19.5903 4.40973 19.2843 4.21799 18.908C4 18.4802 4 17.9201 4 16.8V8.2C4 7.0799 4 6.51984 4.21799 6.09202C4.40973 5.71569 4.71569 5.40973 5.09202 5.21799C5.51984 5 6.07989 5 7.2 5H11.5"
                           stroke="#ffffff"
-                          stroke-width="1.5"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />{" "}
-                        <path
-                          d="M15.1999 9.12L9.41992 14.9"
-                          stroke="#ffffff"
-                          stroke-width="1.5"
+                          stroke-width="2"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         />{" "}
@@ -142,14 +138,17 @@ const Home = () => {
                 alt="hero"
                 src={arka}
               /> */}
-               <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/620x500"/>
+              <img
+                className="object-cover object-center rounded"
+                alt="hero"
+                src="https://dummyimage.com/620x500"
+              />
             </div>
 
-{/* <div className="border lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            {/* <div className="border lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
       <img className="object-cover object-center" alt="hero" src="https://dummyimage.com/420x380/f5f5f5/8c8ea3"/>
       <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/620x500"/>
     </div> */}
-
           </div>
         </section>
       </div>
@@ -161,45 +160,43 @@ const Home = () => {
       <br />
       <br />
       <a href="#about">
-     <button className="scroll flex gap-1">
-      
-        <div>
-          <svg
-            height="2.3em"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 9V3M12 3C15.3137 3 18 5.68629 18 9V15C18 18.3137 15.3137 21 12 21C8.68629 21 6 18.3137 6 15V9C6 5.68629 8.68629 3 12 3Z"
-              stroke="#000000"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </div>
-        <div className="scdn">
-          <p className="font-medium">Scroll down</p>
-        </div>
-        <div className="arrow">
-          <svg
-            height="1.8em"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M12 3C12.5523 3 13 3.44772 13 4V17.5858L18.2929 12.2929C18.6834 11.9024 19.3166 11.9024 19.7071 12.2929C20.0976 12.6834 20.0976 13.3166 19.7071 13.7071L12.7071 20.7071C12.3166 21.0976 11.6834 21.0976 11.2929 20.7071L4.29289 13.7071C3.90237 13.3166 3.90237 12.6834 4.29289 12.2929C4.68342 11.9024 5.31658 11.9024 5.70711 12.2929L11 17.5858V4C11 3.44772 11.4477 3 12 3Z"
-              fill="#000000"
-            />
-          </svg>
-        </div>
-     
+        <button className="scroll flex gap-1">
+          <div>
+            <svg
+              height="2.3em"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 9V3M12 3C15.3137 3 18 5.68629 18 9V15C18 18.3137 15.3137 21 12 21C8.68629 21 6 18.3137 6 15V9C6 5.68629 8.68629 3 12 3Z"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <div className="scdn">
+            <p className="font-medium">Scroll down</p>
+          </div>
+          <div className="arrow">
+            <svg
+              height="1.8em"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M12 3C12.5523 3 13 3.44772 13 4V17.5858L18.2929 12.2929C18.6834 11.9024 19.3166 11.9024 19.7071 12.2929C20.0976 12.6834 20.0976 13.3166 19.7071 13.7071L12.7071 20.7071C12.3166 21.0976 11.6834 21.0976 11.2929 20.7071L4.29289 13.7071C3.90237 13.3166 3.90237 12.6834 4.29289 12.2929C4.68342 11.9024 5.31658 11.9024 5.70711 12.2929L11 17.5858V4C11 3.44772 11.4477 3 12 3Z"
+                fill="#000000"
+              />
+            </svg>
+          </div>
         </button>
-        </a>
+      </a>
     </>
   );
 };

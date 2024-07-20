@@ -4,9 +4,9 @@ import "./style.css";
 const Skills = () => {
   return (
     <div id="skills">
-      <div classNameName="justify-center text-center">
-        <h1 classNameName="text-5xl font-semibold text-black">Skills</h1>
-        <p>My technical level</p>
+      <div className="justify-center self-center ">
+        <h1 className="text-5xl justify-center text-center font-semibold text-black">Skills</h1>
+        <p className="justify-center text-center">My technical level</p>
       </div>
 
       <section className="text-gray-600 body-font">
@@ -14,15 +14,15 @@ const Skills = () => {
           <div className="flex flex-wrap -m-4 justify-center text-center">
             <div className="p-4 md:w-1/2">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <h2 classNameName="text-gray-900 text-lg title-font font-medium mb-3 ">
+                <h2 className="text-gray-900 text-lg title-font font-medium mb-3 ">
                   Frontend Developer
                 </h2>
 
                 <div className="p-6">
                   <div className="flex justify-center gap-28 flex-wrap ">
              
-                    <div classNameName=" flex flex-col  font-medium ">
-                      <div classNameName="flex flex-row gap-2">
+                    <div className="flex flex-col gap-5 font-medium">
+                      <div className="flex flex-row gap-2">
                       <svg
                             height="1em"
                             viewBox="0 0 24 24"
@@ -42,7 +42,7 @@ const Skills = () => {
                         </p>
                       </div>
                       <div>
-                        <p classNameName="flex flex-row gap-2">
+                        <p className="flex flex-row gap-2">
                           <svg
                             height="1em"
                             viewBox="0 0 24 24"
@@ -59,7 +59,7 @@ const Skills = () => {
                           CSS
                         </p>
                       </div>
-                      <p classNameName="flex flex-row gap-2">
+                      <p className="flex flex-row gap-2">
                         <svg
                           height="1em"
                           viewBox="0 0 24 24"
@@ -77,8 +77,8 @@ const Skills = () => {
                       </p>
                     </div>
 
-                    <div classNameName="flex flex-col gap-5 font-medium">
-                      <p classNameName="flex flex-row gap-2">
+                    <div className="flex flex-col gap-5 font-medium">
+                      <p className="flex flex-row gap-2">
                         <svg
                           height="1em"
                           viewBox="0 0 24 24"
@@ -94,7 +94,7 @@ const Skills = () => {
                         </svg>
                         React Js
                       </p>
-                      <p classNameName="flex flex-row gap-2">
+                      <p className="flex flex-row gap-2">
                         <svg
                           height="1em"
                           viewBox="0 0 24 24"
@@ -110,7 +110,7 @@ const Skills = () => {
                         </svg>
                         Bootstrap
                       </p>
-                      <p classNameName="flex flex-row gap-2">
+                      <p className="flex flex-row gap-2">
                         <svg
                           height="1em"
                           viewBox="0 0 24 24"
@@ -134,10 +134,11 @@ const Skills = () => {
 
             <div className="p-4 md:w-1/2">
               <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <h2 classNameName="text-gray-900 text-lg title-font font-medium mb-3 ">
+                <h2 className="text-gray-900 text-lg title-font font-medium mb-3 ">
                   Backend Developer
                 </h2>
               </div>
+              
             </div>
           </div>
         </div>
