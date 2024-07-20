@@ -135,11 +135,11 @@ const About = () => {
                     </div>
                     <div>
                       <h1 className="text-xl font-semibold text-black">
-                        Active
+                     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  Active &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </h1>
                     </div>
                     <div>
-                      <p>Online 24/7</p>
+                      <p>&nbsp;&nbsp;&nbsp;Online 24/7&nbsp;&nbsp;&nbsp;</p>
                     </div>
                   </div>
                   {/* <!-- person - end --> */}
