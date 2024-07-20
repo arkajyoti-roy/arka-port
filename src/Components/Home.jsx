@@ -5,6 +5,7 @@ import arka from './images/arka1.jpg'
 const Home = () => {
   return (
     <>
+    
       <div id="homee" className="home">
         <div id="side" className="social">
           <ul className="wrapper">

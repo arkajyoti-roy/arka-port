@@ -8,7 +8,6 @@ const About = () => {
     <div id='about'>
       
 
-      <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">  </div>
 
       <section className="text-gray-600 body-font">
         <div className='justify-center text-center'>
