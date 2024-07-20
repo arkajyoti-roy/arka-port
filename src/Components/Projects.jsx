@@ -74,7 +74,7 @@ const Projects = () => {
                 </p>
               </div>
               <div className="p-6 pt-0 flex flex-row gap-8">
-                <a href="https://google.co.in">
+                <a href="https://github.com/arkajyoti-roy/JobHunt" target="_blank">
                   {" "}
                   <button
                     type="button"
@@ -83,12 +83,13 @@ const Projects = () => {
                     GitHub
                   </button>
                 </a>
-                <button
+              <a href="" target="_blank">  <button
                   type="button"
                   className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 >
                   Live
                 </button>
+                </a>
               </div>
             </div>
           </SwiperSlide>
@@ -112,20 +113,22 @@ const Projects = () => {
                 </p>
               </div>
               <div className="p-6 pt-0 flex flex-row gap-8">
-                <button
+               <a href="https://github.com/arkajyoti-roy/Ambition" target="_blank"> <button
                   data-ripple-light="true"
                   type="button"
                   className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 >
                   GitHub
                 </button>
-                <button
+                </a>
+              <a href="https://arkajyoti-roy.github.io/Ambition/" target="_blank">  <button
                   data-ripple-light="true"
                   type="button"
                   className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 >
                   Live
                 </button>
+                </a>
               </div>
             </div>
           </SwiperSlide>
@@ -144,25 +147,25 @@ const Projects = () => {
                   WorkStream
                 </h5>
                 <p className="block font-sans text-base font-light leading-relaxed text-inherit antialiased">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                  felis ligula.
+                It's an Private Office Management System Software developed using PHP.
                 </p>
               </div>
               <div className="p-6 pt-0 flex flex-row gap-8">
-                <button
+               <a href="https://github.com/arkajyoti-roy/WorkStream" target="_blank"> <button
                   data-ripple-light="true"
                   type="button"
                   className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 >
                   GitHub
                 </button>
-                <button
+                </a>
+               <a href="https://workstream.arkajyoti.shop/log.php" target="_blank"> <button
                   data-ripple-light="true"
                   type="button"
                   className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 >
                   Live
-                </button>
+                </button></a>
               </div>
             </div>
           </SwiperSlide>
@@ -186,20 +189,20 @@ const Projects = () => {
                 </p>
               </div>
               <div className="p-6 pt-0 flex flex-row gap-8">
-                <button
+              <a href="https://github.com/arkajyoti-roy/PassMan" target="_blank">  <button
                   data-ripple-light="true"
                   type="button"
                   className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 >
                   GitHub
-                </button>
-                <button
+                </button></a>
+               <a href="" target="_blank"> <button
                   data-ripple-light="true"
                   type="button"
                   className="select-none rounded-lg bg-blue-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-blue-500/20 transition-all hover:shadow-lg hover:shadow-blue-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                 >
                   Live
-                </button>
+                </button></a>
               </div>
             </div>
           </SwiperSlide>
