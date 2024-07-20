@@ -19,7 +19,7 @@ const Skills = () => {
                 </h2>
 
                 <div className="p-6">
-                  <div className="flex justify-center gap-28 flex-wrap ">
+                  <div className="sklgap1 flex justify-center flex-wrap ">
              
                     <div className="flex flex-col gap-5 font-medium">
                       <div className="flex flex-row gap-2">
@@ -138,9 +138,9 @@ const Skills = () => {
                 </h2>
       
                 <div className="p-6">
-                  <div className="flex justify-center gap-28 flex-wrap ">
+                  <div className="sklgap flex justify-center  flex-wrap ">
              
-                    <div className="flex flex-col gap-5 font-medium">
+                    <div className="flex flex-col gap-4 font-medium">
                       <div className="flex flex-row gap-2">
                       <svg
                             height="1em"

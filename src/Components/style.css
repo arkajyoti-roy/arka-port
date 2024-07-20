@@ -10,6 +10,11 @@
   
 }
 
+.sklgap{
+  gap: 128px;
+}
+
+
 .arka22{
   display: none;
   margin-top: -15px;
@@ -36,6 +41,15 @@ right: 12px;
 
 
   }
+
+  .sklgap{
+    gap: 49.887px;
+  }
+  
+  .sklgap1{
+    gap: 37.437px;
+  }
+  
  
 }
 
