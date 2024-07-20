@@ -28,7 +28,7 @@
    }
    #nav2{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-   z-index: 2;
+   z-index: 5000 !important;
    }
    .bur{
     position: absolute;

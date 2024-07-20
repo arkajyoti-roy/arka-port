@@ -48,7 +48,15 @@ const Projects = () => {
             slidesPerView: 1,
             spaceBetween: 0,
           },
+          850: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
           1020: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          1175: {
             slidesPerView: 3,
             spaceBetween: 30,
           },

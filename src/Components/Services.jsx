@@ -35,7 +35,7 @@ const Services = () => {
                 <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                   Web <br /> Designer
                 </h1>
-                {/* <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p> */}
+                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
 
                 <a class="text-indigo-500 inline-flex items-center">
                   View More
