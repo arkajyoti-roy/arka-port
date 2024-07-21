@@ -35,7 +35,10 @@ const Services = () => {
                 <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                   Web <br /> Designer
                 </h1>
-                <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                <p class="leading-relaxed mb-3">
+                  Photo booth fam kinfolk cold-pressed sriracha leggings
+                  jianbing microdosing tousled waistcoat.
+                </p>
 
                 <a class="text-indigo-500 inline-flex items-center">
                   View More
@@ -65,9 +68,6 @@ const Services = () => {
                   viewBox="0 0 512 512"
                   xml:space="preserve"
                 >
-                  {/* <style type="text/css">
-	.st0{fill:#000000;}
-</style> */}
                   <g>
                     <path
                       class="st0"
@@ -143,7 +143,6 @@ const Services = () => {
                   />
                 </svg>
                 <br />
-                {/* <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2> */}
                 <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                   Branding
                   <br />

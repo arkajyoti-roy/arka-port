@@ -20,16 +20,9 @@ const About = () => {
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            {/* <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
-        <br className="hidden lg:inline-block"/>readymade gluten
-      </h1> */}
-
             <div className="bg-white py-6 sm:py-8 lg:py-12">
               <div className="mx-auto max-w-screen-xl px-4 md:px-8">
                 <div className="flex flex-row gap-4 md:flex-rows-3 lg:flex-rows-4 lg:gap-8">
-                  {/* <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 lg:gap-8"> */}
-
-                  {/* <!-- person - start --> */}
                   <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
                     <div>
                       <svg
@@ -53,9 +46,7 @@ const About = () => {
                       <p>3 + Years</p>
                     </div>
                   </div>
-                  {/* <!-- person - end --> */}
 
-                  {/* <!-- person - start --> */}
                   <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
                     <div>
                       <svg
@@ -104,10 +95,11 @@ const About = () => {
                       <p>5 + Projects</p>
                     </div>
                   </div>
-                  {/* <!-- person - end --> */}
 
-                  {/* <!-- person - start --> */}
-                  <div style={{paddingTop: "-50px"}} className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
+                  <div
+                    style={{ paddingTop: "-50px" }}
+                    className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8"
+                  >
                     <div>
                       <svg
                         height="2.6em"
@@ -135,20 +127,25 @@ const About = () => {
                     </div>
                     <div>
                       <h1 className="text-xl font-semibold text-black">
-                     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  Active  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Active
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       </h1>
                     </div>
                     <div>
                       <p>Online 24/7</p>
                     </div>
                   </div>
-                  {/* <!-- person - end --> */}
                 </div>
               </div>
             </div>
 
             <p className="mb-8 leading-relaxed abto">
-            I am a full-stack developer primarily focused on website development. I have successfully finished over 5 projects independently as well as collaboratively with teams. I hold a 3-year diploma in Computer Science and am currently pursuing a B.Tech degree. My passion lies in the field of development, where I strive to create innovative projects continuously.
+              I am a full-stack developer primarily focused on website
+              development. I have successfully finished over 5 projects
+              independently as well as collaboratively with teams. I hold a
+              3-year diploma in Computer Science and am currently pursuing a
+              B.Tech degree. My passion lies in the field of development, where
+              I strive to create innovative projects continuously.
             </p>
             <div className="flex justify-center">
               <a href={admit} download="admit.pdf">

@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-// import arka from './images/arka.png'
 import arka from "./images/arka1.jpg";
+import { Link } from "react-scroll";
 const Home = () => {
   return (
     <>
@@ -103,7 +103,8 @@ const Home = () => {
                     className="inline-flex text-white rounded-lg bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg"
                   >
                     Say hello{" "}
-                    <svg style={{paddingTop: "6px", paddingLeft: "4px"}}
+                    <svg
+                      style={{ paddingTop: "6px", paddingLeft: "4px" }}
                       height="1.2em"
                       viewBox="0 0 24 24"
                       fill="none"
@@ -133,33 +134,22 @@ const Home = () => {
               </div>
             </div>
             <div className="border lg:max-w-lg lg:w-1/4 md:w-1/2 w-5/6">
-              {/* <img
-                className="object-cover object-center"
-                alt="hero"
-                src={arka}
-              /> */}
               <img
                 className="object-cover object-center rounded"
                 alt="hero"
                 src="https://dummyimage.com/620x500"
               />
             </div>
-
-            {/* <div className="border lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img className="object-cover object-center" alt="hero" src="https://dummyimage.com/420x380/f5f5f5/8c8ea3"/>
-      <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/620x500"/>
-    </div> */}
           </div>
         </section>
       </div>
       <br />
       <br />
       <br />
-      {/* <br />
-      <br /> */}
+
       <br />
       <br />
-      <a href="#about">
+      <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>
         <button className="scroll flex gap-1">
           <div>
             <svg
@@ -196,7 +186,7 @@ const Home = () => {
             </svg>
           </div>
         </button>
-      </a>
+      </Link>
     </>
   );
 };

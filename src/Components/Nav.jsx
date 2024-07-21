@@ -8,14 +8,7 @@ const Nav = () => {
     <div>
       <header id="nav" className="text-gray-600 body-font">
         <div className="w-full bg-white z-10 fixed flex items-end p-5 md:flex-row  shadow-md ">
-          {/* <a
-            href="#homee"
-            className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
-          >
-            <span className="ml-20 text-3xl">Arkajyoti</span>
-          </a> */}
           <Link
-            // href="#homee"
             className="cursor-pointer flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
             to="homee"
             spy={true}
@@ -26,65 +19,62 @@ const Nav = () => {
             <span className="ml-20 text-3xl">Arkajyoti</span>
           </Link>
           <nav className="md:ml-auto flex flex-wrap items-center mr-10 pb-1 text-base justify-center">
-            <Link  to="homee"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-              // href="#homee"
+            <Link
+              to="homee"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
               className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
             >
               Home
             </Link>
             <Link
-             to="about"
-             spy={true}
-             smooth={true}
-             offset={-100}
-             duration={500}
-              href="#about"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
               className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
             >
               About
             </Link>
-            <Link to="skills"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-              // href="#skills"
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
               className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
             >
               Skills
             </Link>
             <Link
-             to="services"
-             spy={true}
-             smooth={true}
-             offset={-100}
-             duration={500}
-              // href="#services"
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
               className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
             >
               Services
             </Link>
-            <Link to="projects"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-              // href="#projects"
+            <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
               className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
             >
               Projects
             </Link>
             <Link
-             to="contact"
-             spy={true}
-             smooth={true}
-             offset={-100}
-             duration={500}
-              // href="#contact"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
               className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
             >
               Contact
@@ -92,15 +82,14 @@ const Nav = () => {
           </nav>
         </div>
       </header>
-      {/* gap-64  */}
       <header id="nav2" className="text-gray-600 body-font">
         <div className="w-full flex flex-row  shadow-md bg-white fixed pt-4 md:flex-row">
-          <Link to="homee"
+          <Link
+            to="homee"
             spy={true}
             smooth={true}
             offset={-100}
             duration={500}
-            // href="#homee"
             className="flex title-font font-medium text-gray-900 mb-4 md:mb-0"
           >
             <img src={arka2} className="arka22" alt="arka" />
