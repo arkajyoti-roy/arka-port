@@ -24,7 +24,14 @@
   display: none !important; 
   height: 60px;
  }
-
+ @media screen and (max-width : 1010px){
+.scroll{
+  display: none;
+}
+#sclop{
+  display: none;
+}
+ }
 
 @media  (min-width: 300px) and (max-width : 768px){
 

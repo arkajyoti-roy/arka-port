@@ -165,7 +165,7 @@ const Home = () => {
 
       <br />
       <br />
-      <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>
+      <Link id="sclop" to="about" spy={true} smooth={true} offset={-100} duration={500}>
         <button className="scroll flex gap-1">
           <div>
             <svg
