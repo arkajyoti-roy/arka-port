@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-body{
+* body{
 /* Positioning and layering */
 position: absolute;
 inset: 0;
@@ -12,7 +12,8 @@ height: 100%;
 width: 100%;
 
 /* Background color */
-background-color: white;
+background-color: rgb(255, 255, 255);
+/* background-color: rgb(162, 45, 45); */
 
 /* Background gradient */
 background-image: 
