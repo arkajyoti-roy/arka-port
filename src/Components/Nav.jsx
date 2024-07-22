@@ -2,6 +2,9 @@ import React from "react";
 import arka2 from "./images/arka2.png";
 import { Link } from "react-scroll";
 
+
+import {Navbar, NavbarBrand, NavbarContent, NavbarItem,  DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, Avatar} from "@nextui-org/react";
+
 import "./style.css";
 const Nav = () => {
   return (
@@ -95,7 +98,7 @@ const Nav = () => {
             <img src={arka2} className="arka22" alt="arka" />
           </Link>
 
-          <a href="youtube.com">
+          {/* <a href="youtube.com">
             <button className="bur mt-1">
               <svg
                 height="2em"
@@ -123,7 +126,116 @@ const Nav = () => {
                 />
               </svg>
             </button>
-          </a>
+          </a> */}
+{/* <Navbar className="bur"> */}
+      {/* <NavbarBrand>
+        <AcmeLogo />
+        <p className="font-bold text-inherit">ACME</p>
+      </NavbarBrand> */}
+
+{/* 
+      <NavbarContent as="div" justify="end">
+        <Dropdown placement="bottom-end">
+          <DropdownTrigger>
+          <button className="bur mt-1">
+              <svg
+                height="2em"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 12H20"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M5 17H20"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M5 7H20"
+                  stroke="#000000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </button>
+          </DropdownTrigger>
+          <DropdownMenu aria-label="Profile Actions" variant="flat"> */}
+            {/* <DropdownItem key="profile" className="h-14 gap-2">
+              <p className="font-semibold">Signed in as</p>
+              <p className="font-semibold">zoey@example.com</p>
+            </DropdownItem> */}
+            {/* <DropdownItem key="settings" to="homee">Home</DropdownItem>
+            <DropdownItem key="team_settings" to="about">About</DropdownItem>
+            <DropdownItem key="analytics">Skills</DropdownItem>
+            <DropdownItem key="system">Services</DropdownItem>
+            <DropdownItem key="configurations">Contact</DropdownItem>
+           */}
+           {/* <Link
+              to="homee"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Home
+            </Link>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              About
+            </Link>
+            <Link
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Skills
+            </Link>
+            <Link
+              to="services"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Services
+            </Link>
+            <Link
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Projects
+            </Link>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+            >
+              Contact
+            </Link> */}
+
+
+          {/* </DropdownMenu>
+        </Dropdown>
+      </NavbarContent>
+    </Navbar> */}
         </div>
         <br />
         <br />
