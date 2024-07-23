@@ -4,6 +4,7 @@
 
 
 * body{
+
 /* Positioning and layering */
 position: absolute;
 inset: 0;
@@ -32,3 +33,11 @@ background-size: 14px 24px;
     /* font-weight: 700px; */
     font-size: large;
   }
+
+  body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+}
