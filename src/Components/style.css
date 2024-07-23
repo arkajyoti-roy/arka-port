@@ -25,9 +25,9 @@
 }
 .nv{
   /* position: fixed; */
-  /* float: right; */
+  float: right;
   /* margin-right: -98%; */
-  padding-left: 50%;
+  /* padding-left: 50%; */
   /* justify-content: right; */
   /* align-items: end; */
 }

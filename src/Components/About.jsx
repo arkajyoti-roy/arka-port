@@ -127,19 +127,18 @@ const About = () => {
                     </div>
                     <div>
                       <h1 className="text-xl font-semibold text-black">
-'Activated'
-                     
+                        Active                    
                       </h1>
                     </div>
                     <div>
-                      <p>Online 24/7</p>
+                      <p>Online&nbsp;24/7</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <p className="mb-8 leading-relaxed abto">
+            <p className="mb-8 px-14 leading-relaxed abto">
             I am a full-stack developer specializing in website development with experience in over 5 projects individually and collaboratively. Holding a 3-year diploma in Computer Science and pursuing a B.Tech degree, my passion is to create innovative projects in development.
             </p>
             <div className="flex justify-center">
