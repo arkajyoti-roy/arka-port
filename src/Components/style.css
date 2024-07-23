@@ -26,10 +26,11 @@
 
 
 .arka22{
-  display: none;
-  margin-top: -15px;
+
+  /* margin-top: -10px; */
+  /* margin-left: 250%; */
   display: none !important; 
-  height: 60px;
+  height: 50px;
  }
  @media screen and (max-width : 1010px){
 .scroll{
@@ -41,11 +42,15 @@
  }
 
 @media  (min-width: 300px) and (max-width : 768px){
+.ark{
+  display: none !important;
+}
 
   .arka22{
-    display: none;
-    margin-top: -15px;
+
+    margin-top: 14px;
     display: block !important; 
+    margin-left: 416%;
  
    }
    #nav2{
