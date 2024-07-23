@@ -23,11 +23,11 @@ const Nav = () => {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen}>
-      <NavbarContent className="">
+    <Navbar className="shadow-md" onMenuOpenChange={setIsMenuOpen}>
+      <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden float-right"
+          className="sm:hidden "
         />
         <NavbarBrand>
         <Link
@@ -38,7 +38,7 @@ const Nav = () => {
             offset={-100}
             duration={500}
           >
-            <span className="ark ml-20 text-3xl">Arkajyoti</span>
+            <span className="ark  text-3xl">Arkajyoti</span>
           </Link>
 
 
@@ -56,8 +56,7 @@ const Nav = () => {
         </NavbarBrand>
       </NavbarContent>
 
-      {/* <NavbarContent className="md:ml-auto  items-center mr-10 pb-1 text-base justify-center"> */}
-      <NavbarContent className="hidden sm:flex gap-4"  justify="center">
+      <NavbarContent className="nv hidden sm:flex gap-4 right-80"  >
         <NavbarItem>
         <Link
               to="homee"

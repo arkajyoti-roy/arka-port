@@ -23,7 +23,14 @@
 .sklgap1{
   gap: 128px;
 }
-
+.nv{
+  /* position: fixed; */
+  /* float: right; */
+  /* margin-right: -98%; */
+  padding-left: 50%;
+  /* justify-content: right; */
+  /* align-items: end; */
+}
 
 .arka22{
 
