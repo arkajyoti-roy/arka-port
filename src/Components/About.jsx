@@ -140,12 +140,7 @@ const About = () => {
             </div>
 
             <p className="mb-8 leading-relaxed abto">
-              I am a full-stack developer primarily focused on website
-              development. I have successfully finished over 5 projects
-              independently as well as collaboratively with teams. I hold a
-              3-year diploma in Computer Science and am currently pursuing a
-              B.Tech degree. My passion lies in the field of development, where
-              I strive to create innovative projects continuously.
+            I am a full-stack developer specializing in website development with experience in over 5 projects individually and collaboratively. Holding a 3-year diploma in Computer Science and pursuing a B.Tech degree, my passion is to create innovative projects in development.
             </p>
             <div className="flex justify-center">
               <a href={admit} download="admit.pdf">
