@@ -127,8 +127,8 @@ const About = () => {
                     </div>
                     <div>
                       <h1 className="text-xl font-semibold text-black">
-                        &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Active
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+'Activated'
+                     
                       </h1>
                     </div>
                     <div>
