@@ -19,11 +19,11 @@ const About = () => {
               src="https://dummyimage.com/720x600"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <div className="boxc lg:flex-grow  lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <div className="bg-white py-6 sm:py-8 lg:py-12">
               <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-                <div className="flex flex-row gap-4 md:flex-rows-3 lg:flex-rows-4 lg:gap-8">
-                  <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
+                <div className="flex flex-row w-1/2 gap-4 md:flex-rows-3 lg:flex-rows-4 lg:gap-8">
+                  <div className=" flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
                     <div>
                       <svg
                         height="2.2em"
@@ -138,8 +138,8 @@ const About = () => {
               </div>
             </div>
 
-            <p className="mb-8 px-14 leading-relaxed abto">
-            I am a full-stack developer specializing in website development with experience in over 5 projects individually and collaboratively. Holding a 3-year diploma in Computer Science and pursuing a B.Tech degree, my passion is to create innovative projects in development.
+            <p className=" leading-relaxed abto">
+            I am a full-stack developer specializing in website development with experience on over 5 projects independently and in teams. Pursuing a B.Tech degree after a 3-year diploma in Computer Science, I am passionate about creating innovative development projects.
             </p>
             <div className="flex justify-center">
               <a href={admit} download="admit.pdf">

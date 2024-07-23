@@ -46,7 +46,7 @@ const Projects = () => {
             },
             480: {
               slidesPerView: 1,
-              spaceBetween: 0,
+              spaceBetween: 15,
             },
             850: {
               slidesPerView: 2,
@@ -75,7 +75,7 @@ const Projects = () => {
                 <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                   Jobhunt
                 </h5>
-                <p className="abto block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
                   It is an Online Job Portal developed using HTML & CSS.
                 </p>
               </div>
@@ -118,7 +118,7 @@ const Projects = () => {
                 <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                   Ambition
                 </h5>
-                <p className="abto block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
                   It is a website designed for a tuition center. It has some
                   customize designs.
                 </p>
@@ -167,7 +167,7 @@ const Projects = () => {
                 <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                   WorkStream
                 </h5>
-                <p className="abto block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
                   It's an Private Office Management System Software developed
                   using PHP.
                 </p>
@@ -216,7 +216,7 @@ const Projects = () => {
                 <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                   PassMan
                 </h5>
-                <p className="abto block font-sans text-base font-light leading-relaxed text-inherit antialiased">
+                <p className="abto1 block font-sans text-base font-light leading-relaxed text-inherit antialiased">
                   It is password manager, developed using React Js.
                 </p>
               </div>

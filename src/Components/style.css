@@ -1,29 +1,19 @@
-
-
-
-
-
-
-
 @media screen and (max-width: 768px) {
   #nav {
     display: none;
   }
-  #side{
+  #side {
     display: none;
   }
-
-
-  
 }
 
-.sklgap{
+.sklgap {
   gap: 128px;
 }
-.sklgap1{
+.sklgap1 {
   gap: 128px;
 }
-.nv{
+.nv {
   /* position: fixed; */
   float: right;
   /* margin-right: -98%; */
@@ -32,57 +22,51 @@
   /* align-items: end; */
 }
 
-.arka22{
-
+.arka22 {
   /* margin-top: -10px; */
   /* margin-left: 250%; */
-  display: none !important; 
-  height: 50px;
- }
- @media screen and (max-width : 1010px){
-.scroll{
-  display: none;
-}
-#sclop{
-  display: none;
-}
- }
-
-@media  (min-width: 300px) and (max-width : 768px){
-.ark{
   display: none !important;
+  /* height: 50px; */
+}
+@media screen and (max-width: 1010px) {
+  .scroll {
+    display: none;
+  }
+  #sclop {
+    display: none;
+  }
 }
 
-  .arka22{
+@media (min-width: 300px) and (max-width: 768px) {
+  .ark {
+    display: none !important;
+  }
+
+  .arka22 {
+   
 
     margin-top: 14px;
-    display: block !important; 
-    margin-left: 416%;
- 
-   }
-   #nav2{
+    display: block !important;
+    /* margin-left: 416%; */
+    width: 70px;
+  }
+  #nav2 {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-   z-index: 5000 !important;
-   }
-   .bur{
+    z-index: 5000 !important;
+  }
+  .bur {
     position: absolute;
-right: 12px;
-
-
+    right: 12px;
   }
 
-  .sklgap{
+  .sklgap {
     gap: 49.887px;
   }
-  
-  .sklgap1{
+
+  .sklgap1 {
     gap: 37.437px;
   }
-  
- 
 }
-
-
 
 /* Side Social Media */
 
@@ -128,11 +112,6 @@ right: 12px;
   pointer-events: none;
   transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
 
-
-
-
-
-
   position: absolute;
   top: -10px;
   left: 50%;
@@ -159,13 +138,10 @@ right: 12px;
 } */
 
 .wrapper .icon:hover .tooltip {
-
   /* left: 60px;
   opacity: 1;
   visibility: visible;
   pointer-events: auto; */
-
-
 
   opacity: 1;
   visibility: visible;
@@ -205,21 +181,20 @@ right: 12px;
 }
 /* Side social media up */
 
-.scroll{
+.scroll {
   margin-left: 17.5%;
   margin-top: -2%;
 }
-.scdn{
+.scdn {
   margin-top: 6px;
 }
-.arrow{
+.arrow {
   margin-top: 3px;
 }
 
-.cvsvg{
-padding: 5px 0 0 7px;
+.cvsvg {
+  padding: 5px 0 0 7px;
 }
-
 
 .merged {
   display: flex;
@@ -233,26 +208,24 @@ padding: 5px 0 0 7px;
   /* padding-left: 0px; */
   padding: 6% 0 0 3%;
   justify-content: center;
-/* margin-top: -15px;
+  /* margin-top: -15px;
 margin-left: -25px; */
-
 }
-.home .container{
-padding-top: 12%;
-padding-right: 0;
-padding-bottom: 0;
-padding-left: 3%;
+.home .container {
+  padding-top: 12%;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 3%;
 }
-.border{
-    border-radius: 50% !important;
-    margin-top: -5%;
+.border {
+  border-radius: 50% !important;
+  margin-top: -5%;
 }
-.sv{
-    /* padding-top: 3px; */
-    margin-top: 4px;
-    /* padding-left: 9px; */
+.sv {
+  /* padding-top: 3px; */
+  margin-top: 4px;
+  /* padding-left: 9px; */
 }
-
 
 /* CONTACTS */
 
@@ -349,15 +322,13 @@ ul {
 }
 .example-2 .icon-content a[data-social="whatsapp"] .filled,
 .example-2 .icon-content a[data-social="whatsapp"] ~ .tooltip {
-  background-color: #25D366;
+  background-color: #25d366;
   /* background-color: #00ff44; */
 }
 
-.arka2{
+.arka2 {
   height: 45px;
 }
-
-
 
 .author {
   color: gray;
@@ -373,7 +344,6 @@ ul {
 .name:hover {
   cursor: pointer;
 }
-
 
 /* BuTTOnS */
 
@@ -417,34 +387,53 @@ ul {
   transition: all 0.475s;
 }
 
-
+.boxc {
+  margin-top: -25px;
+}
 /* SKILLS */
 
-.abto{
+.abto {
   text-align: justify;
   text-justify: inter-word;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 56px;
+}
+.abto1 {
+  text-align: justify;
+  text-justify: inter-word;
+  /* margin-top: -30px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 56px; */
 }
 
-.nwskl{
+.nwskl {
   /* justify-center text-center */
   justify-content: center !important;
   /* align-items: center !important; */
   text-align: center !important;
 }
 
-.pro{
-
+.pro {
   /* margin-left: 8%; */
   /* margin-right: 6%; */
   /* padding: auto; */
   padding-left: 11.5%;
   padding-right: 6%;
 
-
   /* width: 80% !important; */
 }
 
-.sklshdo{
+.sklshdo {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: white;
+}
+.data-\[justify\=start\]\:basis-0[data-justify=start] {
+  flex-basis: 0px;
+}
+
+.data-\[justify\=start\]\:flex-grow[data-justify=start] {
+  flex-grow: 107 !important;
 }
