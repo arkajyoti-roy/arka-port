@@ -44,11 +44,11 @@
 
   .arka22 {
    
-
-    margin-top: 14px;
+    padding-top: 9px;
+    margin-top: -19px;
     display: block !important;
     /* margin-left: 416%; */
-    width: 70px;
+    width: 60px;
   }
   #nav2 {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -426,7 +426,7 @@ ul {
   /* width: 80% !important; */
 }
 
-.sklshdo {
+/* .sklshdo {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: white;
 }
@@ -436,4 +436,45 @@ ul {
 
 .data-\[justify\=start\]\:flex-grow[data-justify=start] {
   flex-grow: 107 !important;
+} */
+
+
+
+
+
+
+
+
+/* Navbar.css */
+.navbar {
+  z-index: 1000;
+  /* width: 99%; */
+  /* margin-left: 3%; */
+  width: 250px;
+  /* width: 70%; */
+  height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+  backdrop-filter: blur(25px); 
+
+
+  color: rgb(0, 0, 0);
+  position: fixed;
+  top: 73px;
+  /* left: -250px; */
+  transition: left 0.3s ease;
+  /* transition: right 0.3s ease; */
+}
+
+.navbar.open {
+  left: 0;
+}
+
+.navbar.closed {
+  left: -250px;
+  /* left: -354px; */
+  /* left: -3%; */
+}
+
+button {
+  margin: 20px;
 }
