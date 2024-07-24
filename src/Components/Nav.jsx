@@ -102,7 +102,7 @@ const Nav = () => {
           </Link>
           </div>
 <div>
-          <button onClick={toggleNavbar}>
+          <button className="mr-3" onClick={toggleNavbar}>
         {isOpen ? (
           <svg
             height="2em"
