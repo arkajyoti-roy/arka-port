@@ -1,4 +1,4 @@
-import React from "react";
+
 import workstream from "./images/workstream.png";
 import JobHunt from "./images/jobhunt.png";
 import Ambition from "./images/ambition.png";
@@ -25,7 +25,7 @@ const Projects = () => {
       <br />
 
       <br />
-      <div className="pro">
+      <div className="pro  ml-0">
         <Swiper
           slidesPerView={3}
           spaceBetween={0}
@@ -46,10 +46,11 @@ const Projects = () => {
             },
             480: {
               slidesPerView: 1,
-              spaceBetween: 0,
+              spaceBetween: 20,
             },
             850: {
               slidesPerView: 2,
+              // spaceBetween: 0,
               spaceBetween: 20,
             },
             1020: {
@@ -62,7 +63,7 @@ const Projects = () => {
             },
           }}
         >
-          <SwiperSlide className="pl-1">
+          <SwiperSlide className="jobhunt pl-1">
             <div className=" flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
               <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
                 <img
@@ -105,7 +106,7 @@ const Projects = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="pl-1">
+          <SwiperSlide className="ambition pl-1">
             <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
               <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
                 <img
@@ -154,7 +155,7 @@ const Projects = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="pl-1">
+          <SwiperSlide className=" pl-1">
             <div className="relative flex w-80 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
               <div className="relative mx-4 h-40  rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40 bg-gradient-to-r">
                 <img

@@ -13,20 +13,12 @@
 .sklgap1 {
   gap: 128px;
 }
-.nv {
-  /* position: fixed; */
-  float: right;
-  /* margin-right: -98%; */
-  /* padding-left: 50%; */
-  /* justify-content: right; */
-  /* align-items: end; */
-}
+
 
 .arka22 {
-  /* margin-top: -10px; */
-  /* margin-left: 250%; */
+
   display: none !important;
-  /* height: 50px; */
+ 
 }
 @media screen and (max-width: 1010px) {
   .scroll {
@@ -37,21 +29,143 @@
   }
 }
 
-@media (min-width: 300px) and (max-width: 849px) {
+/* Tablets (portrait and landscape) */
+@media only screen and (min-width: 735px) and (max-width: 850px) {
 
-  .pro {
-   
-    padding-left: 31.5% !important;
-    /* padding-right: 6%; */
-  
-   
-  }
+.pro{
+  margin-left: 20% !important;
+}
+
+
 
 }
 
 
 
+@media only screen and (max-width: 735px) {
+
+.pro{
+  margin-left: 17% !important;
+}
+
+
+
+}
+@media only screen and (max-width: 393px) {
+
+.pro{
+  margin-left: 17% !important;
+}
+
+
+
+}
+@media only screen and (max-width: 412px) {
+
+.pro{
+  margin-left: 17% !important;
+}
+
+
+
+}
+@media only screen and (max-width: 384px) {
+
+.pro{
+  margin-left: 17% !important;
+}
+
+
+
+}
+
+@media only screen and (max-width: 644px) {
+
+.pro{
+  margin-left: 12% !important;
+}
+
+}
+@media only screen and (max-width: 390px) {
+
+.pro{
+  margin-left: 55px !important;
+}
+
+}
+
+
+@media only screen and (max-width: 559px) {
+
+.pro{
+  margin-left: 7% !important;
+}
+
+
+
+}
+@media only screen and (max-width: 475px) {
+
+.pro{
+  margin-left: 3% !important;
+}
+
+
+
+}
+@media only screen and (max-width: 375px) {
+
+.pro{
+  margin-left: 5% !important;
+}
+
+
+
+}
+@media only screen and (max-width: 414px) {
+
+.pro{
+  margin-left: 3% !important;
+}
+
+
+
+}
+@media only screen and (max-width: 444px) {
+
+.pro{
+  margin-left: 1.4% !important;
+}
+
+
+
+}
+@media only screen  and (max-width: 420px) {
+  /* Your CSS rules for tablets */
+
+.pro{
+  margin-left: 1.1% !important;
+}
+
+
+
+}
+
+@media only screen and (max-width: 360px) {
+
+.pro{
+  margin-left: -6.36% !important;
+}
+
+
+
+}
+
+
 @media (min-width: 300px) and (max-width: 768px) {
+
+
+
 
 .zin{
   z-index: 1004;
@@ -85,7 +199,6 @@ font-size: 16px !important;
     padding-top: 9px;
     margin-top: -19px;
     display: block !important;
-    /* margin-left: 416%; */
     width: 60px;
   }
   #nav2 {
@@ -138,18 +251,6 @@ font-size: 16px !important;
 }
 
 .wrapper .tooltip {
-  /* position: absolute;
- 
-  font-size: 14px;
-  background: #fff;
-  color: #fff;
-  padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
-
   position: absolute;
   top: -10px;
   left: 50%;
@@ -162,25 +263,9 @@ font-size: 16px !important;
   font-size: 14px;
   transition: all 0.3s ease;
 }
-/* 
-.wrapper .tooltip::before {
-  position: absolute;
-  content: "";
-  height: 8px;
-  width: 8px;
-  background: #fff;
-  bottom: -3px;
-  left: 50%;
-  transform: translate(-50%) rotate(45deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-} */
+
 
 .wrapper .icon:hover .tooltip {
-  /* left: 60px;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto; */
-
   opacity: 1;
   visibility: visible;
   top: 6px;
@@ -242,12 +327,9 @@ font-size: 16px !important;
 .home {
   display: flex;
   gap: 150px;
-  /* padding-top: 10%; */
-  /* padding-left: 0px; */
   padding: 6% 0 0 3%;
   justify-content: center;
-  /* margin-top: -15px;
-margin-left: -25px; */
+
 }
 .home .container {
   padding-top: 12%;
@@ -260,9 +342,7 @@ margin-left: -25px; */
   margin-top: -5%;
 }
 .sv {
-  /* padding-top: 3px; */
   margin-top: 4px;
-  /* padding-left: 9px; */
 }
 
 /* CONTACTS */
@@ -435,50 +515,30 @@ ul {
   text-justify: inter-word;
   margin-top: -30px;
   margin-bottom: 20px;
-  /* margin-left: 50px; */
   margin-right: 60px;
 }
 .abto1 {
   text-align: justify;
   text-justify: inter-word;
-  /* margin-top: -30px;
-  margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 56px; */
+
 }
 
 .nwskl {
-  /* justify-center text-center */
   justify-content: center !important;
-  /* align-items: center !important; */
   text-align: center !important;
 }
 
 .pro {
-  /* margin-left: 8%; */
-  /* margin-right: 6%; */
-  /* padding: auto; */
+
   padding-left: 11.5%;
   padding-right: 6%;
 
-  /* width: 80% !important; */
 }
 
 .sklshdo {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: white;
 }
-/* .data-\[justify\=start\]\:basis-0[data-justify=start] {
-  flex-basis: 0px;
-}
-
-.data-\[justify\=start\]\:flex-grow[data-justify=start] {
-  flex-grow: 107 !important;
-} */
-
-
-
-
 
 
 
@@ -514,8 +574,7 @@ ul {
 .navbar.closed {
   z-index: 998 !important;
   left: -250px;
-  /* left: -354px; */
-  /* left: -3%; */
+
 }
 
 button {
