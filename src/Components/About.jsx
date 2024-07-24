@@ -20,12 +20,13 @@ const About = () => {
             />
           </div>
           <div className="boxc lg:flex-grow  lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <div className="bg-white py-6 sm:py-8 lg:py-12">
+            <div className="abtboxx bg-white py-6 sm:py-8 lg:py-12">
               <div className="mx-auto max-w-screen-xl px-4 md:px-8">
                 <div className="flex flex-row w-1/2 gap-4 md:flex-rows-3 lg:flex-rows-4 lg:gap-8">
                   <div className=" flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
                     <div>
                       <svg
+                      className="xvg"
                         height="2.2em"
                         viewBox="0 0 1024 1024"
                         xmlns="http://www.w3.org/2000/svg"
@@ -38,18 +39,19 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <h1 className="text-xl font-semibold text-black">
+                      <h1 className="tx text-xl font-semibold text-black">
                         Experience
                       </h1>
                     </div>
                     <div>
-                      <p>3 + Years</p>
+                      <p className="pcl">3 + Years</p>
                     </div>
                   </div>
 
                   <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
                     <div>
                       <svg
+                      className="xvg"
                         fill="#000000"
                         height="2.2em"
                         viewBox="0 0 36 36"
@@ -58,7 +60,7 @@ const About = () => {
                         xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink"
                       >
-                        <title>tasks-outline-badged</title>
+                        {/* <title>tasks-outline-badged</title> */}
                         <path
                           className="clr-i-outline--badged clr-i-outline-path-1--badged"
                           d="M12.72,19A1,1,0,0,0,11.3,20.4l5.36,5.36L26.71,15.71a1,1,0,0,0-1.41-1.41l-8.64,8.64Z"
@@ -87,21 +89,22 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <h1 className="text-xl font-semibold text-black">
+                      <h1 className="tx text-xl font-semibold text-black">
                         Completed
                       </h1>
                     </div>
                     <div>
-                      <p>5 + Projects</p>
+                      <p className="pcl">5 + Projects</p>
                     </div>
                   </div>
 
                   <div
                     style={{ paddingTop: "-50px" }}
-                    className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8"
+                    className=" flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8"
                   >
                     <div>
                       <svg
+                      className="xvg"
                         height="2.6em"
                         viewBox="0 0 64 64"
                         xmlns="http://www.w3.org/2000/svg"
@@ -126,19 +129,19 @@ const About = () => {
                       </svg>
                     </div>
                     <div>
-                      <h1 className="text-xl font-semibold text-black">
+                      <h1 className="tx text-xl font-semibold text-black">
                         Active                    
                       </h1>
                     </div>
                     <div>
-                      <p>Online&nbsp;24/7</p>
+                      <p className="pcl">Online&nbsp;24/7</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <p className=" leading-relaxed abto">
+            <p className="leading-relaxed abto">
             I am a full-stack developer specializing in website development with experience on over 5 projects independently and in teams. Pursuing a B.Tech degree after a 3-year diploma in Computer Science, I am passionate about creating innovative development projects.
             </p>
             <div className="flex justify-center">

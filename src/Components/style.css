@@ -37,7 +37,45 @@
   }
 }
 
+@media (min-width: 300px) and (max-width: 849px) {
+
+  .pro {
+   
+    padding-left: 31.5% !important;
+    /* padding-right: 6%; */
+  
+   
+  }
+
+}
+
+
+
 @media (min-width: 300px) and (max-width: 768px) {
+
+.zin{
+  z-index: 1004;
+}
+/* .abtboxx{
+  width: 75%;
+} */
+ .xvg{
+  font-size: 13px;
+ }
+ 
+ .tx{
+font-size: 16px !important;
+ }
+ .pcl{
+  font-size: 13px;
+ }
+
+.abto{
+  padding-top: 20px;
+  margin-left: 9%;
+  margin-right: 9% !important;
+}
+
   .ark {
     display: none !important;
   }
@@ -397,8 +435,8 @@ ul {
   text-justify: inter-word;
   margin-top: -30px;
   margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 56px;
+  /* margin-left: 50px; */
+  margin-right: 60px;
 }
 .abto1 {
   text-align: justify;
@@ -426,11 +464,11 @@ ul {
   /* width: 80% !important; */
 }
 
-/* .sklshdo {
+.sklshdo {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   background-color: white;
 }
-.data-\[justify\=start\]\:basis-0[data-justify=start] {
+/* .data-\[justify\=start\]\:basis-0[data-justify=start] {
   flex-basis: 0px;
 }
 
@@ -469,10 +507,12 @@ ul {
 
 
 .navbar.open {
+  z-index: 999 !important;
   left: 0;
 }
 
 .navbar.closed {
+  z-index: 998 !important;
   left: -250px;
   /* left: -354px; */
   /* left: -3%; */
