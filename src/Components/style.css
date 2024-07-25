@@ -107,7 +107,7 @@
 @media (min-width: 300px) and (max-width: 768px) {
   .herosec{
     justify-content: center !important;
-    margin-left: -23px !important;
+    margin-left: -24px !important;
   }
   .zin {
     z-index: 1004;
