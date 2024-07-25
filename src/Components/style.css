@@ -355,6 +355,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -66px;
 }
 .example-2 .icon-content {
   margin: 0 10px;
@@ -579,4 +580,9 @@ ul {
 
 button {
   margin: 20px;
+}
+
+
+.mklsa{
+  margin-bottom: -60px;
 }

@@ -1,7 +1,6 @@
 
-import "./App.css";
+// import "./App.css";
 import Nav from "./Components/Nav";
-import SideSocial from "./Components/SideSocial";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
 import Services from "./Components/Services";
@@ -17,7 +16,7 @@ function App() {
     <>
       
         <Nav />
-        {/* <SideSocial/> */}
+
         <Home />
         <br />
         <br />
