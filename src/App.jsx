@@ -37,6 +37,7 @@ function App() {
         <br />
         <br />
         <Contact />
+        
         <Footer />
    
     </>

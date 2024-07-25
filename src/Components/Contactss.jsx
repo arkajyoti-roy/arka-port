@@ -44,7 +44,7 @@ const Contactss = () => {
                     <input
                       type="text"
                       name="name"
-                      className="w-full rounded-md border-2 py-1 px-3"
+                      className="w-full rounded-md border-2 py-1 px-3" required
                     />
                   </div>
                 </div>
@@ -52,7 +52,7 @@ const Contactss = () => {
                   <div className="relative">
                     <label
                       htmlFor="email"
-                      className="leading-7 text-sm text-gray-600"
+                      className="leading-7 text-sm text-gray-600" 
                     >
                       Email
                     </label>
@@ -60,7 +60,7 @@ const Contactss = () => {
                     <input
                       type="email"
                       name="email"
-                      className="w-full rounded-md border-2 py-1 px-3"
+                      className="w-full rounded-md border-2 py-1 px-3" required
                     />
                   </div>
                 </div>
@@ -77,7 +77,7 @@ const Contactss = () => {
                       name="message"
                       id="message"
                       className="w-full border-2 rounded-md h-32 text-base py-1 px-3 resize-none leading-6"
-                    ></textarea>
+                    required ></textarea>
                   </div>
                 </div>
                 <div className="p-2 w-full">
