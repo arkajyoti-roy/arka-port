@@ -1,10 +1,8 @@
 import React from "react";
 import "./style.css";
 
-import Popup from 'reactjs-popup';
-import 'reactjs-popup/dist/index.css';
-
-
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
 
 const Services = () => {
   return (
@@ -45,30 +43,28 @@ const Services = () => {
                   jianbing microdosing tousled waistcoat.
                 </p>
 
-                <Popup trigger={<button>View More 
-                  <svg
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </button>} position="right center">
-    <div>Hello SIR 
-      
-
-                <a className="text-indigo-500 inline-flex items-center">
-                  
-                 
-                </a>
-                </div>
-  </Popup>
-
+                <Popup
+                  trigger={
+                    <button className="text-indigo-500 inline-flex items-center">
+                      View More
+                      <svg
+                        class="w-4 h-4 ml-2"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </button>
+                  }
+                  position="right center"
+                >
+                  <div>Hello SIR</div>
+                </Popup>
               </div>
             </div>
             <div className="p-4 lg:w-1/3">
@@ -116,21 +112,28 @@ const Services = () => {
                   Photo booth fam kinfolk cold-pressed sriracha leggings
                   jianbing microdosing tousled waistcoat.
                 </p>
-                <a className="text-indigo-500 inline-flex items-center">
-                  View More
-                  <svg
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <Popup
+                  trigger={
+                    <button className="text-indigo-500 inline-flex items-center">
+                      View More
+                      <svg
+                        class="w-4 h-4 ml-2"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </button>
+                  }
+                  position="right center"
+                >
+                  <div>Hello SIR</div>
+                </Popup>
               </div>
             </div>
             <div className="p-4 lg:w-1/3">
@@ -166,21 +169,28 @@ const Services = () => {
                   Photo booth fam kinfolk cold-pressed sriracha leggings
                   jianbing microdosing tousled waistcoat.
                 </p>
-                <a class="text-indigo-500 inline-flex items-center">
-                  View More
-                  <svg
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
+                <Popup
+                  trigger={
+                    <button className="text-indigo-500 inline-flex items-center">
+                      View More
+                      <svg
+                        class="w-4 h-4 ml-2"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </button>
+                  }
+                  position="right center"
+                >
+                  <div>Hello SIR</div>
+                </Popup>
               </div>
             </div>
           </div>
