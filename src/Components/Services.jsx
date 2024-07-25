@@ -1,6 +1,11 @@
 import React from "react";
 import "./style.css";
 
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+
+
+
 const Services = () => {
   return (
     <div id="services">
@@ -9,11 +14,11 @@ const Services = () => {
         <p>What I Offer</p>
       </div>
 
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-12 mx-auto">
-          <div class="flex flex-wrap -m-4">
-            <div class="p-4 lg:w-1/3">
-              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden  relative">
+      <section className="text-gray-600 body-font">
+        <div className="container px-5 py-12 mx-auto">
+          <div className="flex flex-wrap -m-4">
+            <div className="p-4 lg:w-1/3">
+              <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden  relative">
                 <svg
                   height="2.5em"
                   viewBox="0 0 24 24"
@@ -32,16 +37,15 @@ const Services = () => {
                   </g>
                 </svg>
                 <br />
-                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+                <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                   Web <br /> Designer
                 </h1>
-                <p class="leading-relaxed mb-3">
+                <p className="leading-relaxed mb-3">
                   Photo booth fam kinfolk cold-pressed sriracha leggings
                   jianbing microdosing tousled waistcoat.
                 </p>
 
-                <a class="text-indigo-500 inline-flex items-center">
-                  View More
+                <Popup trigger={<button>View More 
                   <svg
                     class="w-4 h-4 ml-2"
                     viewBox="0 0 24 24"
@@ -54,11 +58,20 @@ const Services = () => {
                     <path d="M5 12h14"></path>
                     <path d="M12 5l7 7-7 7"></path>
                   </svg>
+                </button>} position="right center">
+    <div>Popup content 
+
+                <a className="text-indigo-500 inline-flex items-center">
+                  
+                 
                 </a>
+                </div>
+  </Popup>
+
               </div>
             </div>
-            <div class="p-4 lg:w-1/3">
-              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden relative">
+            <div className="p-4 lg:w-1/3">
+              <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden relative">
                 <svg
                   version="1.1"
                   height="2em"
@@ -102,7 +115,7 @@ const Services = () => {
                   Photo booth fam kinfolk cold-pressed sriracha leggings
                   jianbing microdosing tousled waistcoat.
                 </p>
-                <a class="text-indigo-500 inline-flex items-center">
+                <a className="text-indigo-500 inline-flex items-center">
                   View More
                   <svg
                     class="w-4 h-4 ml-2"
@@ -119,8 +132,8 @@ const Services = () => {
                 </a>
               </div>
             </div>
-            <div class="p-4 lg:w-1/3">
-              <div class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden relative">
+            <div className="p-4 lg:w-1/3">
+              <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden relative">
                 <svg
                   height="2.3em"
                   viewBox="0 0 24 24"
@@ -143,7 +156,7 @@ const Services = () => {
                   />
                 </svg>
                 <br />
-                <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
+                <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">
                   Branding
                   <br />
                   Designer

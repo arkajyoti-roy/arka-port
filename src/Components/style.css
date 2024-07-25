@@ -478,8 +478,8 @@ ul {
   z-index: 1000 !important;
   /* width: 99%; */
   /* margin-left: 3%; */
-  /* width: 250px; */
-  width: 50%;
+  width: 250px;
+  /* width: 50%; */
   /* width: 70%; */
   height: 100%;
   background-color: rgba(255, 255, 255, 0.5);

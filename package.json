@@ -17,6 +17,7 @@
     "react-scroll": "^1.9.0",
     "react-simple-typewriter": "^5.0.1",
     "react-toastify": "^10.0.5",
+    "reactjs-popup": "^2.0.6",
     "swiper": "^11.1.4"
   },
   "devDependencies": {
