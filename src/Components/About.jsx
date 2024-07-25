@@ -26,7 +26,7 @@ const About = () => {
                   <div className=" flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
                     <div>
                       <svg
-                      className="xvg"
+                        className="xvg"
                         height="2.2em"
                         viewBox="0 0 1024 1024"
                         xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ const About = () => {
                   <div className="flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
                     <div>
                       <svg
-                      className="xvg"
+                        className="xvg"
                         fill="#000000"
                         height="2.2em"
                         viewBox="0 0 36 36"
@@ -104,7 +104,7 @@ const About = () => {
                   >
                     <div>
                       <svg
-                      className="xvg"
+                        className="xvg"
                         height="2.6em"
                         viewBox="0 0 64 64"
                         xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ const About = () => {
                     </div>
                     <div>
                       <h1 className="tx text-xl font-semibold text-black">
-                        Active                    
+                        Active
                       </h1>
                     </div>
                     <div>
@@ -142,7 +142,11 @@ const About = () => {
             </div>
 
             <p className="leading-relaxed abto">
-            I am a full-stack developer specializing in website development with experience on over 5 projects independently and in teams. Pursuing a B.Tech degree after a 3-year diploma in Computer Science, I am passionate about creating innovative development projects.
+              I am a full-stack developer specializing in website development
+              with experience on over 5 projects independently and in teams.
+              Pursuing a B.Tech degree after a 3-year diploma in Computer
+              Science, I am passionate about creating innovative development
+              projects.
             </p>
             <div className="flex justify-center">
               <a href={admit} download="admit.pdf">

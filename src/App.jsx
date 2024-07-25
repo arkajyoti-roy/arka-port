@@ -1,4 +1,3 @@
-
 // import "./App.css";
 import Nav from "./Components/Nav";
 import About from "./Components/About";
@@ -10,36 +9,32 @@ import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
 
 function App() {
- 
-
   return (
     <>
-      
-        <Nav />
+      <Nav />
 
-        <Home />
-        <br />
-        <br />
-        <br />
-        <br />
-        <About />
-        <br />
-        <br />
-        <br />
-        <Skills />
-        <br />
-        <br />
-        <br />
-        <br />
-        <Services />
-        <Projects />
-        <br />
-        <br />
-        <br />
-        <Contact />
-        
-        <Footer />
-   
+      <Home />
+      <br />
+      <br />
+      <br />
+      <br />
+      <About />
+      <br />
+      <br />
+      <br />
+      <Skills />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Services />
+      <Projects />
+      <br />
+      <br />
+      <br />
+      <Contact />
+
+      <Footer />
     </>
   );
 }

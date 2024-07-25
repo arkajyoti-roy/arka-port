@@ -14,11 +14,8 @@
   gap: 128px;
 }
 
-
 .arka22 {
-
   display: none !important;
- 
 }
 @media screen and (max-width: 1010px) {
   .scroll {
@@ -31,171 +28,111 @@
 
 /* Tablets (portrait and landscape) */
 @media only screen and (min-width: 735px) and (max-width: 850px) {
-
-.pro{
-  margin-left: 20% !important;
+  .pro {
+    margin-left: 20% !important;
+  }
 }
-
-
-
-}
-
-
 
 @media only screen and (max-width: 735px) {
-
-.pro{
-  margin-left: 17% !important;
-}
-
-
-
+  .pro {
+    margin-left: 17% !important;
+  }
 }
 @media only screen and (max-width: 393px) {
-
-.pro{
-  margin-left: 17% !important;
-}
-
-
-
+  .pro {
+    margin-left: 17% !important;
+  }
 }
 @media only screen and (max-width: 412px) {
-
-.pro{
-  margin-left: 17% !important;
-}
-
-
-
+  .pro {
+    margin-left: 17% !important;
+  }
 }
 @media only screen and (max-width: 384px) {
-
-.pro{
-  margin-left: 17% !important;
-}
-
-
-
+  .pro {
+    margin-left: 17% !important;
+  }
 }
 
 @media only screen and (max-width: 644px) {
-
-.pro{
-  margin-left: 12% !important;
-}
-
+  .pro {
+    margin-left: 12% !important;
+  }
 }
 @media only screen and (max-width: 390px) {
-
-.pro{
-  margin-left: 55px !important;
+  .pro {
+    margin-left: 55px !important;
+  }
 }
-
-}
-
 
 @media only screen and (max-width: 559px) {
-
-.pro{
-  margin-left: 7% !important;
-}
-
-
-
+  .pro {
+    margin-left: 7% !important;
+  }
 }
 @media only screen and (max-width: 475px) {
-
-.pro{
-  margin-left: 3% !important;
-}
-
-
-
+  .pro {
+    margin-left: 3% !important;
+  }
 }
 @media only screen and (max-width: 375px) {
-
-.pro{
-  margin-left: 5% !important;
-}
-
-
-
+  .pro {
+    margin-left: 5% !important;
+  }
 }
 @media only screen and (max-width: 414px) {
-
-.pro{
-  margin-left: 3% !important;
-}
-
-
-
+  .pro {
+    margin-left: 3% !important;
+  }
 }
 @media only screen and (max-width: 444px) {
-
-.pro{
-  margin-left: 1.4% !important;
+  .pro {
+    margin-left: 1.4% !important;
+  }
 }
-
-
-
-}
-@media only screen  and (max-width: 420px) {
+@media only screen and (max-width: 420px) {
   /* Your CSS rules for tablets */
 
-.pro{
-  margin-left: 1.1% !important;
-}
-
-
-
+  .pro {
+    margin-left: 1.1% !important;
+  }
 }
 
 @media only screen and (max-width: 360px) {
-
-.pro{
-  margin-left: -6.36% !important;
+  .pro {
+    margin-left: -6.36% !important;
+  }
 }
-
-
-
-}
-
 
 @media (min-width: 300px) and (max-width: 768px) {
-
-
-
-
-.zin{
-  z-index: 1004;
-}
-/* .abtboxx{
+  .zin {
+    z-index: 1004;
+  }
+  /* .abtboxx{
   width: 75%;
 } */
- .xvg{
-  font-size: 13px;
- }
- 
- .tx{
-font-size: 16px !important;
- }
- .pcl{
-  font-size: 13px;
- }
+  .xvg {
+    font-size: 13px;
+  }
 
-.abto{
-  padding-top: 20px;
-  margin-left: 9%;
-  margin-right: 9% !important;
-}
+  .tx {
+    font-size: 16px !important;
+  }
+  .pcl {
+    font-size: 13px;
+  }
+
+  .abto {
+    padding-top: 20px;
+    margin-left: 9%;
+    margin-right: 9% !important;
+  }
 
   .ark {
     display: none !important;
   }
 
   .arka22 {
-   
     padding-top: 9px;
     margin-top: -19px;
     display: block !important;
@@ -264,7 +201,6 @@ font-size: 16px !important;
   transition: all 0.3s ease;
 }
 
-
 .wrapper .icon:hover .tooltip {
   opacity: 1;
   visibility: visible;
@@ -329,7 +265,6 @@ font-size: 16px !important;
   gap: 150px;
   padding: 6% 0 0 3%;
   justify-content: center;
-
 }
 .home .container {
   padding-top: 12%;
@@ -521,7 +456,6 @@ ul {
 .abto1 {
   text-align: justify;
   text-justify: inter-word;
-
 }
 
 .nwskl {
@@ -530,10 +464,8 @@ ul {
 }
 
 .pro {
-
   padding-left: 11.5%;
   padding-right: 6%;
-
 }
 
 .sklshdo {
@@ -541,20 +473,17 @@ ul {
   background-color: white;
 }
 
-
-
-
 /* Navbar.css */
 .navbar {
   z-index: 1000 !important;
   /* width: 99%; */
   /* margin-left: 3%; */
-  width: 250px;
+  /* width: 250px; */
+  width: 50%;
   /* width: 70%; */
   height: 100%;
-    background-color: rgba(255, 255, 255, 0.5); 
-  backdrop-filter: blur(25px); 
-
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(25px);
 
   color: rgb(0, 0, 0);
   position: fixed;
@@ -564,9 +493,6 @@ ul {
   /* transition: right 0.3s ease; */
 }
 
-
-
-
 .navbar.open {
   z-index: 999 !important;
   left: 0;
@@ -575,14 +501,12 @@ ul {
 .navbar.closed {
   z-index: 998 !important;
   left: -250px;
-
 }
 
 button {
   margin: 20px;
 }
 
-
-.mklsa{
+.mklsa {
   margin-bottom: -60px;
 }

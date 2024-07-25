@@ -17,7 +17,6 @@ const Contactss = () => {
         () => {
           // console.log('SUCCESS!');
           toast.success("Sent Successfully!");
-
         },
         (error) => {
           // console.log('FAILED...', error.text);
@@ -31,8 +30,8 @@ const Contactss = () => {
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
-              <form ref={form} onSubmit={sendEmail}>
-            <div className="flex flex-wrap -m-2">
+            <form ref={form} onSubmit={sendEmail}>
+              <div className="flex flex-wrap -m-2">
                 <div className="p-2 w-1/2">
                   <div className="relative">
                     <label
@@ -45,7 +44,8 @@ const Contactss = () => {
                     <input
                       type="text"
                       name="name"
-                      className="w-full rounded-md border-2 py-1 px-3" required
+                      className="w-full rounded-md border-2 py-1 px-3"
+                      required
                     />
                   </div>
                 </div>
@@ -53,7 +53,7 @@ const Contactss = () => {
                   <div className="relative">
                     <label
                       htmlFor="email"
-                      className="leading-7 text-sm text-gray-600" 
+                      className="leading-7 text-sm text-gray-600"
                     >
                       Email
                     </label>
@@ -61,7 +61,8 @@ const Contactss = () => {
                     <input
                       type="email"
                       name="email"
-                      className="w-full rounded-md border-2 py-1 px-3" required
+                      className="w-full rounded-md border-2 py-1 px-3"
+                      required
                     />
                   </div>
                 </div>
@@ -78,7 +79,8 @@ const Contactss = () => {
                       name="message"
                       id="message"
                       className="w-full border-2 rounded-md h-32 text-base py-1 px-3 resize-none leading-6"
-                    required ></textarea>
+                      required
+                    ></textarea>
                   </div>
                 </div>
                 <div className="p-2 w-full">
@@ -103,8 +105,8 @@ const Contactss = () => {
                     transition:Bounce
                   />
                 </div>
-            </div>
-              </form>
+              </div>
+            </form>
           </div>
         </div>
       </section>

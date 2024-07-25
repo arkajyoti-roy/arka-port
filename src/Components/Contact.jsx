@@ -1,27 +1,15 @@
-
 import "./style.css";
 import Contactss from "./Contactss";
 
 const Contact = () => {
   return (
     <div id="contact">
-
-  
-
-
-
-   
       <div className="justify-center text-center mklsa">
         <h1 className="text-5xl font-semibold text-black">Contact Me</h1>
         <p>Get in touch</p>
       </div>
 
-     
-    
-    
-
-<Contactss/>
-
+      <Contactss />
 
       <ul className="example-2 ">
         <li className="icon-content">

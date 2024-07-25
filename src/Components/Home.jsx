@@ -1,24 +1,17 @@
 import React from "react";
-import {useTypewriter, Cursor} from 'react-simple-typewriter'
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./style.css";
 import arka from "./images/arka1.jpg";
 import { Link } from "react-scroll";
 const Home = () => {
-
-
-
   const [typeEffect] = useTypewriter({
-    words: ['Full-Stack Developer', 'Designer', ''],
+    words: ["Full-Stack Developer", "Designer", ""],
     loop: {},
     // typeSpeed: 80,
     // delaySpeed: 40,
   });
-  
+
   return (
-
-
-
-
     <>
       <div id="homee" className="home">
         <div id="side" className="social">
@@ -99,9 +92,9 @@ const Home = () => {
               <h1 className="title-font sm:text-4xl text-5xl mb-4 font-medium text-gray-900">
                 Arkajyoti Roy
               </h1>
-              
+
               <h3 className="text-xl text-semibold">
-              &nbsp;&nbsp;&nbsp; {typeEffect} <Cursor/>
+                &nbsp;&nbsp;&nbsp; {typeEffect} <Cursor />
               </h3>
               <br />
               <p className="mb-8 leading-relaxed">
@@ -165,7 +158,14 @@ const Home = () => {
 
       <br />
       <br />
-      <Link id="sclop" to="about" spy={true} smooth={true} offset={-100} duration={500}>
+      <Link
+        id="sclop"
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
+      >
         <button className="scroll flex gap-1">
           <div>
             <svg
