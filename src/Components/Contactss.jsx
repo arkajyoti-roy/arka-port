@@ -86,7 +86,7 @@ const Contactss = () => {
                 <div className="p-2 w-full">
                   <button
                     type="submit"
-                    className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                    className="flex mx-auto text-white bg-gray-800 border-0 py-2 px-8 focus:outline-none hover:bg-gray-900 font-semibold pt-2 rounded text-lg"
                   >
                     Submit
                   </button>
