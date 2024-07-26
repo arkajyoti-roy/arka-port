@@ -4,6 +4,10 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contactss = () => {
+  const tola = () => {
+    toast.success("Sending..");
+  };
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -85,6 +89,7 @@ const Contactss = () => {
                 </div>
                 <div className="p-2 w-full">
                   <button
+                    onClick={tola}
                     type="submit"
                     className="flex mx-auto text-white bg-gray-800 border-0 py-2 px-8 focus:outline-none hover:bg-gray-900 font-semibold pt-2 rounded text-lg"
                   >
@@ -93,7 +98,7 @@ const Contactss = () => {
                   {/* <ToastContainer /> */}
                   <ToastContainer
                     position="top-right"
-                    autoClose={4000}
+                    autoClose={3000}
                     hideProgressBar={false}
                     newestOnTop={false}
                     closeOnClick
