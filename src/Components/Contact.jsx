@@ -10,6 +10,7 @@ const Contact = () => {
       </div>
 
       <Contactss />
+      <br />
 
       <ul className="example-2 ">
         <li className="icon-content">

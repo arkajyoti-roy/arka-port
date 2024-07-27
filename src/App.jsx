@@ -29,8 +29,8 @@ function App() {
       <br />
       <Services />
       <Projects />
-      {/* <br />
-      <br /> */}
+      {/* <br /> */}
+      <br />
       <br />
       <Contact />
 
