@@ -53,6 +53,7 @@ const Contactss = () => {
                     </label>
 
                     <input
+                    placeholder="Enter your Name"
                       value={Name}
                       type="text"
                       name="name"
@@ -71,6 +72,7 @@ const Contactss = () => {
                     </label>
 
                     <input
+                    placeholder="Enter your Email"
                       value={Email}
                       type="email"
                       name="email"
@@ -89,6 +91,7 @@ const Contactss = () => {
                     </label>
 
                     <textarea
+                    placeholder="Enter your Message"
                       value={Message}
                       name="message"
                       id="message"
