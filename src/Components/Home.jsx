@@ -94,7 +94,7 @@ const Home = () => {
               </h1>
 
               <h3 className="text-xl text-semibold">
-                &nbsp;&nbsp;&nbsp; {typeEffect} <Cursor />
+               I'm a {typeEffect} <Cursor />
               </h3>
               <br />
               <p className="mb-8 leading-relaxed">
