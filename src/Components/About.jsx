@@ -151,7 +151,7 @@ const About = () => {
             <div className="flex justify-center">
               <a href={admit} download="admit.pdf">
                 {" "}
-                <button className="inline-flex text-white rounded-lg bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg">
+                <button className="poplo1 justify-center text-center font-semibold inline-flex text-white rounded-lg bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg">
                   Download CV{" "}
                   <svg
                     className="cvsvg"
