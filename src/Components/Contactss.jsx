@@ -4,24 +4,20 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Contactss = () => {
-
-  let [Name, setName]= useState();
-  let [Email, setEmail]= useState();
-  let [Message, setMEssage]= useState();
-
+  let [Name, setName] = useState();
+  let [Email, setEmail] = useState();
+  let [Message, setMEssage] = useState();
 
   const tola = () => {
     toast.success("Sending...");
-    
-
   };
 
   const form = useRef();
 
   const sendEmail = (e) => {
-    setName(Name='');
-    setEmail(Email='');
-    setMEssage(Message='');
+    setName((Name = ""));
+    setEmail((Email = ""));
+    setMEssage((Message = ""));
     e.preventDefault();
 
     emailjs
@@ -30,7 +26,6 @@ const Contactss = () => {
       })
       .then(
         () => {
-         
           // console.log('SUCCESS!');
           toast.success("Sent Successfully!");
         },
@@ -58,7 +53,7 @@ const Contactss = () => {
                     </label>
 
                     <input
-                    value={Name}
+                      value={Name}
                       type="text"
                       name="name"
                       className="w-full rounded-md border-2 py-1 px-3"
@@ -76,7 +71,7 @@ const Contactss = () => {
                     </label>
 
                     <input
-                    value={Email}
+                      value={Email}
                       type="email"
                       name="email"
                       className="w-full rounded-md border-2 py-1 px-3"
@@ -94,7 +89,7 @@ const Contactss = () => {
                     </label>
 
                     <textarea
-                    value={Message}
+                      value={Message}
                       name="message"
                       id="message"
                       className="w-full border-2 rounded-md h-32 text-base py-1 px-3 resize-none leading-6"
