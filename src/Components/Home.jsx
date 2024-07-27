@@ -109,10 +109,10 @@ const Home = () => {
                 >
                   <button
                     href
-                    className="inline-flex text-white rounded-lg bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg"
+                    className="poplo justify-center text-center inline-flex font-semibold text-white rounded-lg bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg"
                   >
                     Say hello{" "}
-                    <svg
+                    <svg className="font-semibold"
                       style={{ paddingTop: "6px", paddingLeft: "4px" }}
                       height="1.2em"
                       viewBox="0 0 24 24"
