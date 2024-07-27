@@ -15,13 +15,13 @@ function App() {
 
       <Home />
       <br />
+      {/* <br />
       <br />
-      <br />
-      <br />
+      <br /> */}
       <About />
       <br />
       <br />
-      <br />
+      {/* <br /> */}
       <Skills />
       <br />
       <br />
@@ -29,8 +29,8 @@ function App() {
       <br />
       <Services />
       <Projects />
-      <br />
-      <br />
+      {/* <br />
+      <br /> */}
       <br />
       <Contact />
 
