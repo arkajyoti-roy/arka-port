@@ -25,8 +25,8 @@ const Contactss = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_xtnuyje", "template_1i4023f", form.current, {
-        publicKey: "Ymy3TIK4Q12f8c5_g",
+      .sendForm("service_xe6b27f", "template_ylnukkx", form.current, {
+        publicKey: "T09SthimcL6gsdPH3",
       })
       .then(
         () => {
