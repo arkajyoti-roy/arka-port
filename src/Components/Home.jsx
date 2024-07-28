@@ -142,11 +142,15 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div className="border lg:max-w-lg lg:w-1/4 md:w-1/2 w-5/6 sm:justify-center md:justify-center">
+            {/* <div className="border lg:max-w-lg lg:w-1/4 md:w-1/2 w-5/6 sm:justify-center md:justify-center"> */}
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+
               <img
-                className="object-cover object-center rounded"
+                className="object-cover object-center rounded-3xl"
                 alt="hero"
-                src="https://dummyimage.com/620x500"
+                // src="https://dummyimage.com/620x500"
+              src="./images/main.jpg"
+
               />
             </div>
           </div>

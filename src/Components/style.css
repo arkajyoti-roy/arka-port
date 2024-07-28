@@ -105,6 +105,10 @@
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
+  .home{
+  margin-top: 0px !important;
+
+  }
   .herosec{
     justify-content: center !important;
     align-items: center !important;
@@ -271,6 +275,7 @@
 }
 
 .home {
+  margin-top: -160px;
   display: flex;
   gap: 150px;
   padding: 6% 0 0 3%;
