@@ -46,6 +46,16 @@ const Nav = () => {
               About
             </Link>
             <Link
+              to="edu"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
+            >
+              Education
+            </Link>
+            <Link
               to="skills"
               spy={true}
               smooth={true}
@@ -180,6 +190,16 @@ const Nav = () => {
                 >
                   About
                 </Link>
+                <Link
+              to="edu"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
+            >
+              Education
+            </Link>
                 <Link
                   to="skills"
                   spy={true}

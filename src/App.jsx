@@ -7,6 +7,7 @@ import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import Contact from "./Components/Contact";
 import Projects from "./Components/Projects";
+import Edu from "./Components/Edu";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <br />
       <br />
       {/* <br /> */}
+      {/* <Edu/> */}
       <Skills />
       <br />
       <br />

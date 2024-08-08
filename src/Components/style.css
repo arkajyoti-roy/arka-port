@@ -490,6 +490,7 @@ ul {
 
 /* Navbar.css */
 .navbar {
+
   z-index: 1000 !important;
   /* width: 99%; */
   /* margin-left: 3%; */
@@ -515,7 +516,8 @@ ul {
 
 .navbar.closed {
   z-index: 998 !important;
-  left: -250px;
+  /* left: -250px; */
+  left: -100%;
 }
 
 button {
