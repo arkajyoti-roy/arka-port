@@ -87,7 +87,7 @@ const Contact = () => {
         </li>
         <li className="icon-content">
           <a
-            href="https://youtube.com/"
+            href="https://arkajyoti.shop/"
             aria-label="Whatsapp"
             data-social="whatsapp"
           >

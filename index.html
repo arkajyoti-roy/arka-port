@@ -9,7 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet">
-
+    <style>
+      body {
+          -webkit-user-select: none; /* Safari */
+          -moz-user-select: none;    /* Firefox */
+          -ms-user-select: none;     /* Internet Explorer/Edge */
+          user-select: none;         /* Non-prefixed version, currently supported by Chrome, Opera and Edge */
+      }
+  </style>
   </head>
   <body>
       
@@ -19,4 +26,26 @@
     <script type="module" src="/src/main.jsx"></script>
   
   </body>
+  <script>
+    document.body.addEventListener('contextmenu', (e) => e.preventDefault());
+
+
+    function ctrlShiftKey(e, keyCode) {
+    return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+}
+
+document.body.onkeydown = (e) => {
+    // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+    if (e.keyCode === 123 || ctrlShiftKey(e, 'I') || ctrlShiftKey(e, 'J') || ctrlShiftKey(e, 'C') || (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))) {
+        return false;
+    }
+};
+
+
+document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && (e.key === 'c' || e.key === 'u' || e.key === 's' || e.key === 'a')) {
+                e.preventDefault();
+            }
+        });
+  </script>
 </html>
