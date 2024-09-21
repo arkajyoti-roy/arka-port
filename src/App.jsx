@@ -1,9 +1,10 @@
 // import "./App.css";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Nav from "./Components/Nav";
 import About from "./Components/About";
 import Skills from "./Components/Skills";
-import Services from "./Components/Services";
+// import Services from "./Components/Services";
+// import Timeline from "./Components/Timeline";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import Contact from "./Components/Contact";
@@ -52,13 +53,14 @@ function App() {
       <br />
       <br />
       {/* <br /> */}
-      {/* <Edu/> */}
+      <Edu/>
       <Skills />
       <br />
       <br />
       <br />
       <br />
-      <Services />
+      {/* <Services /> */}
+      {/* <Timeline/> */}
       <Projects />
       {/* <br /> */}
       <br />

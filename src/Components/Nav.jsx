@@ -1,6 +1,6 @@
 import arka2 from "./images/arka2.png";
 import { Link } from "react-scroll";
-import React, { useState } from "react";
+import { useState } from "react";
 
 import "./style.css";
 const Nav = () => {
@@ -65,7 +65,7 @@ const Nav = () => {
             >
               Skills
             </Link>
-            <Link
+            {/* <Link
               to="services"
               spy={true}
               smooth={true}
@@ -74,7 +74,7 @@ const Nav = () => {
               className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
             >
               Services
-            </Link>
+            </Link> */}
             <Link
               to="projects"
               spy={true}
@@ -128,16 +128,16 @@ const Nav = () => {
                   <path
                     d="M3 21.32L21 3.32001"
                     stroke="#000000"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                   <path
                     d="M3 3.32001L21 21.32"
                     stroke="#000000"
-                    stroke-width="1.5"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               ) : (
@@ -150,20 +150,20 @@ const Nav = () => {
                   <path
                     d="M5 12H20"
                     stroke="#000000"
-                    stroke-width="2"
-                    stroke-linecap="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
                   />
                   <path
                     d="M5 17H20"
                     stroke="#000000"
-                    stroke-width="2"
-                    stroke-linecap="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
                   />
                   <path
                     d="M5 7H20"
                     stroke="#000000"
-                    stroke-width="2"
-                    stroke-linecap="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
                   />
                 </svg>
               )}
@@ -210,7 +210,7 @@ const Nav = () => {
                 >
                   Skills
                 </Link>
-                <Link
+                {/* <Link
                   to="services"
                   spy={true}
                   smooth={true}
@@ -219,7 +219,7 @@ const Nav = () => {
                   className="mr-5 hover:text-gray-900 font-semibold cursor-pointer"
                 >
                   Services
-                </Link>
+                </Link> */}
                 <Link
                   to="projects"
                   spy={true}

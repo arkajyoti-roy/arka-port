@@ -2,46 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+* body {
+  /* Positioning and layering */
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+  height: 100%;
+  width: 100%;
 
-* body{
+  /* Background color */
+  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(162, 45, 45); */
 
+  /* Background gradient */
+  background-image: linear-gradient(
+      to right,
+      rgba(128, 128, 128, 0.04) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to bottom, rgba(128, 128, 128, 0.04) 1px, transparent 1px);
+  background-size: 14px 24px;
 
-  
+  /* d */
 
-/* Positioning and layering */
-position: absolute;
-inset: 0;
-z-index: -10;
-height: 100%;
-width: 100%;
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* font-weight: 700px; */
+  font-size: large;
+}
 
-/* Background color */
-background-color: rgb(255, 255, 255);
-/* background-color: rgb(162, 45, 45); */
-
-/* Background gradient */
-background-image: 
-  linear-gradient(to right, rgba(128, 128, 128, 0.04) 1px, transparent 1px),
-  linear-gradient(to bottom, rgba(128, 128, 128, 0.04) 1px, transparent 1px);
-background-size: 14px 24px;
-
-
-/* d */
-
-
-
-    font-family: "Baloo Bhaijaan 2", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    /* font-weight: 700px; */
-    font-size: large;
-  }
-
-  body::-webkit-scrollbar {
-    display: none;
+body::-webkit-scrollbar {
+  display: none;
 }
 body {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;     /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
- 
