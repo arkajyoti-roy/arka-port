@@ -1,4 +1,3 @@
-import React from "react";
 import "./style.css";
 
 import admit from "./Download/admit.pdf";
@@ -68,15 +67,15 @@ const About = () => {
                           d="M12.72,19A1,1,0,0,0,11.3,20.4l5.36,5.36L26.71,15.71a1,1,0,0,0-1.41-1.41l-8.64,8.64Z"
                         ></path>
                         <path
-                          class="clr-i-outline--badged clr-i-outline-path-2--badged"
+                          className="clr-i-outline--badged clr-i-outline-path-2--badged"
                           d="M23.13,9H12V7.33A.33.33,0,0,1,12.33,7H16V6a2,2,0,0,1,4,0V7h2.57a7.52,7.52,0,0,1-.07-1,7.52,7.52,0,0,1,.07-1h-.7a4,4,0,0,0-7.75,0H12.33A2.34,2.34,0,0,0,10,7.33V11H24.42A7.5,7.5,0,0,1,23.13,9Z"
                         ></path>
                         <path
-                          class="clr-i-outline--badged clr-i-outline-path-3--badged"
+                          className="clr-i-outline--badged clr-i-outline-path-3--badged"
                           d="M30,13.5a7.52,7.52,0,0,1-1-.07V32H7V7H9V5H7A1.75,1.75,0,0,0,5,6.69V32.31A1.7,1.7,0,0,0,6.71,34H29.29A1.7,1.7,0,0,0,31,32.31V13.43A7.52,7.52,0,0,1,30,13.5Z"
                         ></path>
                         <circle
-                          class="clr-i-outline--badged clr-i-outline-path-4--badged clr-i-badge"
+                          className="clr-i-outline--badged clr-i-outline-path-4--badged clr-i-badge"
                           cx="30"
                           cy="6"
                           r="5"
@@ -86,7 +85,7 @@ const About = () => {
                           y="0"
                           width="36"
                           height="36"
-                          fill-opacity="0"
+                          fillOpacity="0"
                         />
                       </svg>
                     </div>
@@ -110,7 +109,7 @@ const About = () => {
                         height="2.6em"
                         viewBox="0 0 64 64"
                         xmlns="http://www.w3.org/2000/svg"
-                        stroke-width="3"
+                        strokeWidth="3"
                         stroke="#000000"
                         fill="none"
                       >
@@ -123,7 +122,7 @@ const About = () => {
                           y1="52.54"
                           x2="42.39"
                           y2="52.54"
-                          stroke-linecap="round"
+                          strokeLinecap="round"
                         />
                         <circle cx="22.13" cy="25.21" r="3.53" />
                         <path d="M29.28,39.19a7.15,7.15,0,0,0-7.15-7.14h0A7.14,7.14,0,0,0,15,39.19Z" />
@@ -162,12 +161,12 @@ const About = () => {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                    <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
                     <g
                       id="SVGRepo_tracerCarrier"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
 
                     <g id="SVGRepo_iconCarrier">
@@ -175,9 +174,9 @@ const About = () => {
                       <path
                         d="M9 17H15M9 13H15M9 9H10M13 3H8.2C7.0799 3 6.51984 3 6.09202 3.21799C5.71569 3.40973 5.40973 3.71569 5.21799 4.09202C5 4.51984 5 5.0799 5 6.2V17.8C5 18.9201 5 19.4802 5.21799 19.908C5.40973 20.2843 5.71569 20.5903 6.09202 20.782C6.51984 21 7.0799 21 8.2 21H15.8C16.9201 21 17.4802 21 17.908 20.782C18.2843 20.5903 18.5903 20.2843 18.782 19.908C19 19.4802 19 18.9201 19 17.8V9M13 3L19 9M13 3V7.4C13 7.96005 13 8.24008 13.109 8.45399C13.2049 8.64215 13.3578 8.79513 13.546 8.89101C13.7599 9 14.0399 9 14.6 9H19"
                         stroke="#ffffff"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />{" "}
                     </g>
                   </svg>

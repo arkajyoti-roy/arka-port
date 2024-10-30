@@ -1,7 +1,5 @@
-import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "./style.css";
-import arka from "./images/arka1.jpg";
 import { Link } from "react-scroll";
 const Home = () => {
   const [typeEffect] = useTypewriter({
@@ -28,7 +26,7 @@ const Home = () => {
                   height="2.3em"
                   viewBox="-3.5 0 19 19"
                   xmlns="http://www.w3.org/2000/svg"
-                  class="cf-icon-svg"
+                  className="cf-icon-svg"
                 >
                   <path d="M3.335 6.498a1.152 1.152 0 0 1-1.248 1.148h-.015a1.15 1.15 0 1 1 .03-2.295 1.147 1.147 0 0 1 1.233 1.147zM.982 8.553h2.206v6.637H.982zm10.165 2.83v3.807H8.941v-3.55c0-.893-.319-1.502-1.12-1.502a1.21 1.21 0 0 0-1.13.807 1.516 1.516 0 0 0-.073.538v3.708H4.41s.03-6.017 0-6.639h2.21v.94l-.016.023h.015V9.49a2.19 2.19 0 0 1 1.989-1.095c1.451 0 2.54.949 2.54 2.988z" />
                 </svg>
@@ -119,12 +117,12 @@ const Home = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                      <g id="SVGRepo_bgCarrier" strokeWidth="0" />
 
                       <g
                         id="SVGRepo_tracerCarrier"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
 
                       <g id="SVGRepo_iconCarrier">
@@ -132,9 +130,9 @@ const Home = () => {
                         <path
                           d="M20 4L12 12M20 4V8.5M20 4H15.5M19 12.5V16.8C19 17.9201 19 18.4802 18.782 18.908C18.5903 19.2843 18.2843 19.5903 17.908 19.782C17.4802 20 16.9201 20 15.8 20H7.2C6.0799 20 5.51984 20 5.09202 19.782C4.71569 19.5903 4.40973 19.2843 4.21799 18.908C4 18.4802 4 17.9201 4 16.8V8.2C4 7.0799 4 6.51984 4.21799 6.09202C4.40973 5.71569 4.71569 5.40973 5.09202 5.21799C5.51984 5 6.07989 5 7.2 5H11.5"
                           stroke="#ffffff"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />{" "}
                       </g>
                     </svg>
@@ -151,9 +149,7 @@ const Home = () => {
                 alt="arka"
                 // src="https://dummyimage.com/620x500"
               // src="./images/sa.jpg"
-              src="./images/ty.jpg"
-              // src="./images/main.jpg"
-              // src="./images/trump.jpeg"
+              src="./images/arkac.jpg"
 
               />
             </div>
@@ -185,9 +181,9 @@ const Home = () => {
               <path
                 d="M12 9V3M12 3C15.3137 3 18 5.68629 18 9V15C18 18.3137 15.3137 21 12 21C8.68629 21 6 18.3137 6 15V9C6 5.68629 8.68629 3 12 3Z"
                 stroke="#000000"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
@@ -202,8 +198,8 @@ const Home = () => {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M12 3C12.5523 3 13 3.44772 13 4V17.5858L18.2929 12.2929C18.6834 11.9024 19.3166 11.9024 19.7071 12.2929C20.0976 12.6834 20.0976 13.3166 19.7071 13.7071L12.7071 20.7071C12.3166 21.0976 11.6834 21.0976 11.2929 20.7071L4.29289 13.7071C3.90237 13.3166 3.90237 12.6834 4.29289 12.2929C4.68342 11.9024 5.31658 11.9024 5.70711 12.2929L11 17.5858V4C11 3.44772 11.4477 3 12 3Z"
                 fill="#000000"
               />
