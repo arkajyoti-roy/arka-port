@@ -150,7 +150,7 @@ const About = () => {
               projects.
             </p>
             <div className="flex justify-center">
-              <a href="../Download/arka.pdf" download="arka.pdf">
+              <a href="arka.pdf" download="arka_cv.pdf">
                 
                 {" "}
                 <button className="poplo1 justify-center text-center font-semibold inline-flex text-white rounded-lg bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-900 text-lg">
